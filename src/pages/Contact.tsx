@@ -19,7 +19,7 @@ const Contact = () => {
 
     const formData = new FormData(e.currentTarget);
 
-    // Combine first + last name into single "name" field
+    // Combine first + last name into single "name" field for Formspree
     const fullName = `${formData.get("firstName")} ${formData.get("lastName")}`;
     formData.set("name", fullName);
     formData.delete("firstName");
@@ -37,7 +37,7 @@ const Contact = () => {
       const result = await response.json();
       console.log("Formspree response:", result);
 
-      if (response.ok) {
+      if (result.ok) {
         toast({
           title: "Message Sent!",
           description: "We'll get back to you within 24 hours.",
@@ -62,10 +62,10 @@ const Contact = () => {
     <div className="min-h-screen bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex items-center gap-4 mb-8">
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => navigate("/")}
+          <Button 
+            variant="ghost" 
+            size="sm" 
+            onClick={() => navigate('/')}
             className="flex items-center gap-2"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -74,7 +74,9 @@ const Contact = () => {
         </div>
 
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-foreground mb-4">Contact Us</h1>
+          <h1 className="text-4xl font-bold text-foreground mb-4">
+            Contact Us
+          </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Have questions, feedback, or need support? We're here to help you succeed in your scholarship journey.
           </p>
@@ -104,28 +106,28 @@ const Contact = () => {
                     <Input id="lastName" name="lastName" placeholder="Doe" required />
                   </div>
                 </div>
-
+                
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
                   <Input id="email" name="email" type="email" placeholder="john@example.com" required />
                 </div>
-
+                
                 <div className="space-y-2">
                   <Label htmlFor="subject">Subject</Label>
                   <Input id="subject" name="subject" placeholder="How can we help you?" required />
                 </div>
-
+                
                 <div className="space-y-2">
                   <Label htmlFor="message">Message</Label>
-                  <Textarea
-                    id="message"
+                  <Textarea 
+                    id="message" 
                     name="message"
                     placeholder="Tell us more about your question or feedback..."
                     className="min-h-[120px]"
-                    required
+                    required 
                   />
                 </div>
-
+                
                 <Button type="submit" className="w-full" disabled={isSubmitting}>
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
@@ -133,8 +135,9 @@ const Contact = () => {
             </CardContent>
           </Card>
 
-          {/* Contact Info & Quick Actions */}
+          {/* Contact Information & Quick Actions */}
           <div className="space-y-6">
+            {/* Direct Contact */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -148,12 +151,18 @@ const Contact = () => {
                     <Label className="text-sm font-medium">Email Support</Label>
                     <div className="space-y-1">
                       <p className="text-muted-foreground">
-                        <a href="mailto:kishlayamishra@gmail.com" className="text-primary hover:underline">
+                        <a 
+                          href="mailto:kishlayamishra@gmail.com" 
+                          className="text-primary hover:underline"
+                        >
                           kishlayamishra@gmail.com
                         </a>
                       </p>
                       <p className="text-muted-foreground">
-                        <a href="mailto:harshitabhaskaruni@gmail.com" className="text-primary hover:underline">
+                        <a 
+                          href="mailto:harshitabhaskaruni@gmail.com" 
+                          className="text-primary hover:underline"
+                        >
                           harshitabhaskaruni@gmail.com
                         </a>
                       </p>
@@ -167,6 +176,7 @@ const Contact = () => {
               </CardContent>
             </Card>
 
+            {/* Quick Help */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -175,18 +185,31 @@ const Contact = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <Button variant="outline" className="w-full justify-start" onClick={() => navigate("/faq")}>
+                <Button 
+                  variant="outline" 
+                  className="w-full justify-start"
+                  onClick={() => navigate('/faq')}
+                >
                   View FAQ
                 </Button>
-                <Button variant="outline" className="w-full justify-start" onClick={() => navigate("/auth")}>
+                <Button 
+                  variant="outline" 
+                  className="w-full justify-start"
+                  onClick={() => navigate('/auth')}
+                >
                   Get Started with Profile
                 </Button>
-                <Button variant="outline" className="w-full justify-start" onClick={() => navigate("/scholarships")}>
+                <Button 
+                  variant="outline" 
+                  className="w-full justify-start"
+                  onClick={() => navigate('/scholarships')}
+                >
                   Browse Scholarships
                 </Button>
               </CardContent>
             </Card>
 
+            {/* Common Topics */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -208,6 +231,7 @@ const Contact = () => {
           </div>
         </div>
 
+        {/* Powered by Gemini */}
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-muted rounded-full">
             <span className="text-sm text-muted-foreground">Powered by</span>
