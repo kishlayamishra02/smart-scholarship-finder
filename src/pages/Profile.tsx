@@ -120,7 +120,6 @@ const Profile = () => {
         if (!formData.full_name?.trim()) missing.push("Full Name");
         if (!formData.email?.trim()) missing.push("Email");
         if (!formData.country?.trim()) missing.push("Country");
-        if (!formData.age?.trim()) missing.push("Age");
         if (missing.length > 0) {
           setErrorMessage("Missing: " + missing.join(", "));
           return false;
