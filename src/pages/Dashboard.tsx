@@ -295,19 +295,6 @@ const Dashboard = () => {
           </div>
         </div>
 
-        {/* Dark Mode Toggle */}
-        <div className="px-6 pb-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <Settings className="h-4 w-4 text-gray-400" />
-              <span className="text-sm text-gray-600">Dark Mode</span>
-            </div>
-            <div className="w-10 h-6 bg-gray-200 rounded-full flex items-center p-1">
-              <div className="w-4 h-4 bg-white rounded-full"></div>
-            </div>
-          </div>
-        </div>
-
         {/* Navigation */}
         <nav className="flex-1 px-3">
           <div className="space-y-1">
