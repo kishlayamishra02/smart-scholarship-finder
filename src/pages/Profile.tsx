@@ -23,33 +23,6 @@ const Profile = () => {
   const [session, setSession] = useState<Session | null>(null);
   const { loading, matches, populateScholarships, findMatches } = useScholarships();
 
-  useEffect(() => {
-    // Set up auth state listener
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (event, session) => {
-        setSession(session);
-        setUser(session?.user ?? null);
-        
-        if (!session?.user) {
-          navigate("/auth");
-        }
-      }
-    );
-
-    // Check for existing session
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-      setUser(session?.user ?? null);
-      
-      if (!session?.user) {
-        navigate("/auth");
-      }
-    });
-
-    return () => subscription.unsubscribe();
-  }, [navigate]);
-  
-  // Form state
   const [formData, setFormData] = useState<Partial<UserProfile>>({
     full_name: '',
     email: '',
@@ -73,6 +46,9 @@ const Profile = () => {
     community_service: ''
   });
 
+  // NEW: state for inline validation errors
+  const [errorMessage, setErrorMessage] = useState("");
+
   const steps = [
     { id: 1, title: "Personal Info", icon: User, completed: false },
     { id: 2, title: "Academic Details", icon: GraduationCap, completed: false },
@@ -80,27 +56,35 @@ const Profile = () => {
     { id: 4, title: "Experience & Activities", icon: Plus, completed: false },
   ];
 
+  useEffect(() => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(
+      (event, session) => {
+        setSession(session);
+        setUser(session?.user ?? null);
+        if (!session?.user) navigate("/auth");
+      }
+    );
+
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session);
+      setUser(session?.user ?? null);
+      if (!session?.user) navigate("/auth");
+    });
+
+    return () => subscription.unsubscribe();
+  }, [navigate]);
+
   const handleNext = async () => {
-    // Validate required fields for each step
-    if (!validateCurrentStep()) {
-      toast({
-        title: "Missing Information",
-        description: "Please fill in all required fields before proceeding.",
-        variant: "destructive",
-      });
-      return;
-    }
+    if (!validateCurrentStep()) return;
 
     if (currentStep < 4) {
       setCurrentStep(currentStep + 1);
     } else {
-      // Save profile to database and redirect to dashboard
       setIsLoading(true);
       try {
         const { data: { user } } = await supabase.auth.getUser();
         if (!user) throw new Error('User not authenticated');
 
-        // Save/update profile
         const { error } = await supabase
           .from('user_profiles')
           .upsert({
@@ -115,7 +99,6 @@ const Profile = () => {
           description: "Redirecting to your personalized dashboard...",
         });
 
-        // Redirect to dashboard where matches will be shown
         navigate('/dashboard');
       } catch (error) {
         console.error('Error saving profile:', error);
@@ -130,51 +113,53 @@ const Profile = () => {
     }
   };
 
-  const handlePopulateDatabase = async () => {
-    try {
-      await populateScholarships();
-    } catch (error) {
-      console.error('Failed to populate database:', error);
+  const validateCurrentStep = () => {
+    switch (currentStep) {
+      case 1: {
+        const missing = [];
+        if (!formData.full_name?.trim()) missing.push("Full Name");
+        if (!formData.email?.trim()) missing.push("Email");
+        if (!formData.country?.trim()) missing.push("Country");
+        if (!formData.age?.trim()) missing.push("Age");
+        if (missing.length > 0) {
+          setErrorMessage("Missing: " + missing.join(", "));
+          return false;
+        }
+        setErrorMessage("");
+        return true;
+      }
+      case 2: {
+        const missing = [];
+        if (!formData.education_level?.trim()) missing.push("Education Level");
+        if (!formData.field_of_study?.trim()) missing.push("Field of Study");
+        if (!formData.institution?.trim()) missing.push("Institution");
+        if (!formData.gpa?.trim()) missing.push("GPA");
+        if (missing.length > 0) {
+          setErrorMessage("Missing: " + missing.join(", "));
+          return false;
+        }
+        setErrorMessage("");
+        return true;
+      }
+      case 3: {
+        const missing = [];
+        if (!formData.income_level?.trim()) missing.push("Income Level");
+        if (!formData.preferred_countries?.length) missing.push("Preferred Countries");
+        if (missing.length > 0) {
+          setErrorMessage("Missing: " + missing.join(", "));
+          return false;
+        }
+        setErrorMessage("");
+        return true;
+      }
+      default:
+        setErrorMessage("");
+        return true;
     }
   };
 
-const validateCurrentStep = () => {
-  switch (currentStep) {
-    case 1: // Personal Information
-      return (
-        formData.full_name?.trim() !== "" &&
-        formData.email?.trim() !== "" &&
-        formData.country?.trim() !== "" &&
-        formData.age?.trim() !== ""
-      );
-
-    case 2: // Academic Details
-      return (
-        formData.education_level?.trim() !== "" &&
-        formData.field_of_study?.trim() !== "" &&
-        formData.institution?.trim() !== "" &&
-        formData.gpa?.trim() !== ""
-      );
-
-    case 3: // Financial & Preferences
-      return (
-        formData.income_level?.trim() !== "" &&
-        (formData.preferred_countries?.length ?? 0) > 0
-      );
-
-    case 4: // Experience & Activities
-      return true; // optional step
-    default:
-      return true;
-  }
-};
-
-
   const updateFormData = (field: string, value: any) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
+    setFormData(prev => ({ ...prev, [field]: value }));
   };
 
   const toggleArrayField = (field: 'preferred_countries' | 'languages', value: string) => {
@@ -183,26 +168,27 @@ const validateCurrentStep = () => {
       const newArray = currentArray.includes(value)
         ? currentArray.filter(item => item !== value)
         : [...currentArray, value];
-      return {
-        ...prev,
-        [field]: newArray
-      };
+      return { ...prev, [field]: newArray };
     });
   };
 
   const handlePrevious = () => {
-    if (currentStep > 1) {
-      setCurrentStep(currentStep - 1);
-    }
+    if (currentStep > 1) setCurrentStep(currentStep - 1);
   };
 
-  const handleBackToHome = () => {
-    navigate("/");
-  };
+  const handleBackToHome = () => navigate("/");
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
     navigate("/");
+  };
+
+  const handlePopulateDatabase = async () => {
+    try {
+      await populateScholarships();
+    } catch (error) {
+      console.error('Failed to populate database:', error);
+    }
   };
 
   const renderStepContent = () => {
@@ -502,41 +488,22 @@ const validateCurrentStep = () => {
   };
 
   // Show matches if they exist
-  if (showMatches) {
+   if (showMatches) {
     return (
       <div className="min-h-screen bg-background">
-        {/* Header */}
         <div className="border-b border-border bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex items-center justify-between">
-              <Button 
-                variant="ghost" 
-                onClick={() => setShowMatches(false)}
-                className="text-muted-foreground hover:text-foreground"
-              >
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Profile
-              </Button>
-              <Button 
-                variant="outline"
-                onClick={handlePopulateDatabase}
-                disabled={loading}
-                className="flex items-center gap-2"
-              >
-                <Database className="h-4 w-4" />
-                {loading ? 'Populating...' : 'Populate Database'}
-              </Button>
-            </div>
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <Button variant="ghost" onClick={() => setShowMatches(false)} className="text-muted-foreground hover:text-foreground">
+              <ArrowLeft className="mr-2 h-4 w-4" /> Back to Profile
+            </Button>
+            <Button variant="outline" onClick={handlePopulateDatabase} disabled={loading} className="flex items-center gap-2">
+              <Database className="h-4 w-4" /> {loading ? 'Populating...' : 'Populate Database'}
+            </Button>
           </div>
         </div>
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <ScholarshipMatches 
-            matches={matches} 
-            loading={loading} 
-            onApply={() => {}} 
-            onSave={() => {}} 
-          />
+          <ScholarshipMatches matches={matches} loading={loading} onApply={() => {}} onSave={() => {}} />
         </div>
       </div>
     );
@@ -544,103 +511,68 @@ const validateCurrentStep = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
       <div className="border-b border-border bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <Button 
-              variant="ghost" 
-              onClick={handleBackToHome}
-              className="text-muted-foreground hover:text-foreground"
-            >
-              <Home className="mr-2 h-4 w-4" />
-              Back to Home
-            </Button>
-            
-            <h1 className="text-3xl font-bold text-foreground">Create Your Profile</h1>
-            
-            <Button 
-              variant="ghost"
-              onClick={handleLogout}
-              className="text-muted-foreground hover:text-foreground"
-            >
-              <LogOut className="mr-2 h-4 w-4" />
-              Logout
-            </Button>
-          </div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+          <Button variant="ghost" onClick={handleBackToHome} className="text-muted-foreground hover:text-foreground">
+            <Home className="mr-2 h-4 w-4" /> Back to Home
+          </Button>
+          <h1 className="text-3xl font-bold text-foreground">Create Your Profile</h1>
+          <Button variant="ghost" onClick={handleLogout} className="text-muted-foreground hover:text-foreground">
+            <LogOut className="mr-2 h-4 w-4" /> Logout
+          </Button>
         </div>
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Profile Form Card */}
         <div className="bg-white rounded-xl shadow-soft border border-border p-8">
           <div className="mb-8">
             <h1 className="text-3xl font-bold text-foreground mb-2">Create Your Profile</h1>
             <p className="text-muted-foreground">Help us find the perfect scholarships for you</p>
           </div>
 
-          {/* Step Progress */}
           <div className="flex items-center justify-between mb-8">
             {steps.map((step, index) => {
               const Icon = step.icon;
               const isActive = step.id === currentStep;
               const isCompleted = step.id < currentStep;
-              
               return (
                 <div key={step.id} className="flex items-center">
                   <div className={`flex items-center space-x-3 ${index < steps.length - 1 ? 'flex-1' : ''}`}>
-                    <div
-                      className={`flex items-center justify-center w-10 h-10 rounded-full ${
-                        isCompleted
-                          ? "bg-green-success text-white"
-                          : isActive
-                          ? "bg-primary text-white"
-                          : "bg-muted text-muted-foreground"
-                      }`}
-                    >
+                    <div className={`flex items-center justify-center w-10 h-10 rounded-full ${
+                        isCompleted ? "bg-green-success text-white" :
+                        isActive ? "bg-primary text-white" :
+                        "bg-muted text-muted-foreground"
+                      }`}>
                       <Icon className="h-5 w-5" />
                     </div>
                     <span className={`font-medium ${isActive ? "text-primary" : "text-muted-foreground"}`}>
                       {step.title}
                     </span>
                   </div>
-                  {index < steps.length - 1 && (
-                    <div className="flex-1 h-px bg-border mx-4"></div>
-                  )}
+                  {index < steps.length - 1 && <div className="flex-1 h-px bg-border mx-4"></div>}
                 </div>
               );
             })}
           </div>
 
-          {/* Form Content */}
           <div className="mb-8">
             {renderStepContent()}
           </div>
 
-          {/* Navigation Buttons */}
+          {/* NEW: Show inline error message */}
+          {errorMessage && <p className="text-red-500 text-sm mb-4">{errorMessage}</p>}
+
           <div className="flex justify-between">
-            <Button
-              variant="ghost"
-              onClick={handlePrevious}
-              disabled={currentStep === 1}
-              className="text-muted-foreground"
-            >
+            <Button variant="ghost" onClick={handlePrevious} disabled={currentStep === 1} className="text-muted-foreground">
               Previous
             </Button>
-            <Button
-              variant="hero"
-              onClick={handleNext}
-              disabled={isLoading || loading}
-              className="flex items-center gap-2"
-            >
+            <Button variant="hero" onClick={handleNext} disabled={isLoading || loading} className="flex items-center gap-2">
               {currentStep === 4 ? (
                 <>
                   <Sparkles className="h-4 w-4" />
                   {isLoading || loading ? "Finding Matches..." : "Find My Scholarships"}
                 </>
-              ) : (
-                "Next"
-              )}
+              ) : "Next"}
             </Button>
           </div>
         </div>

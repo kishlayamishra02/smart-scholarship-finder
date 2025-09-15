@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
 dist
 dist-ssr
@@ -22,3 +23,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Supabase specific
+.supabase
+supabase/.branches
+supabase/.temp
+
+# Deno cache (if used locally)
+.deno
+
+# Build / cache
+*.tsbuildinfo
