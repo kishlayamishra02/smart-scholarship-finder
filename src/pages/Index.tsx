@@ -26,14 +26,6 @@ const Index = () => {
     }
   };
 
-  const handleApplyNow = () => {
-    if (user) {
-      navigate("/dashboard");
-    } else {
-      navigate("/auth");
-    }
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-purple-50/30">
       {/* Header */}
@@ -42,7 +34,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                Smart Scholarship Finder
+                AI Scholar
               </span>
               <span className="text-orange-500 text-3xl ml-1">+</span>
             </div>
@@ -74,21 +66,20 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
-              Let's trigger Your career with our{" "}
+              Your Dream. Your Future. 
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Smart Scholarship Finder program
+                 Funded.
               </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Discover thousands of scholarships tailored to your academic profile and career goals. 
-              Our AI-powered platform matches you with opportunities that align with your qualifications and aspirations.
+              Stop searching, start applying. Our smart platform brings the scholarships to you. Just create a profile and get matched with opportunities that fit your unique talents and ambitions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg" onClick={handleApplyNow} className="rounded-full px-8">
-                Apply Now
+              <Button variant="hero" size="lg" onClick={handleGetStarted} className="rounded-full px-8">
+                Find My Scholarships
               </Button>
               <Button variant="outline" size="lg" className="rounded-full px-8 border-gray-300 text-gray-600 hover:bg-gray-50" onClick={() => navigate('/auth')}>
-                Explore All Scholarships
+                Sign Up for Free
               </Button>
             </div>
           </div>
@@ -106,15 +97,15 @@ const Index = () => {
               </div>
               <div className="mt-6 bg-white rounded-2xl p-6 shadow-lg">
                 <p className="text-sm text-gray-600 mb-4 italic">
-                  "This platform helped me find 15 scholarships that matched my profile perfectly. I got accepted to 3 of them!"
+                  "I was overwhelmed with finding scholarships for my B.Com degree. This platform made it so easy! I found a local scholarship I never would have known about otherwise. So grateful!"
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-yellow-500 rounded-full mr-3 flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">MJ</span>
+                    <span className="text-white font-bold text-sm">PP</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">Marcus Johnson</p>
-                    <p className="text-sm text-gray-500">Stanford University</p>
+                    <p className="font-semibold text-gray-800">Priya Patel</p>
+                    <p className="text-sm text-gray-500">University of Delhi</p>
                   </div>
                 </div>
               </div>
@@ -131,15 +122,15 @@ const Index = () => {
               </div>
               <div className="mt-6 bg-white rounded-2xl p-6 shadow-lg">
                 <p className="text-sm text-gray-600 mb-4 italic">
-                  "The AI recommendations were spot-on! I never knew there were so many scholarships available for my field of study."
+                  "As an international student, finding funding is tough. The AI recommendations were spot-on and helped me find scholarships to study engineering in Canada. It's a great tool."
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-purple-500 rounded-full mr-3 flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">SW</span>
+                    <span className="text-white font-bold text-sm">DR</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">Sarah Williams</p>
-                    <p className="text-sm text-gray-500">MIT</p>
+                    <p className="font-semibold text-gray-800">David Rodriguez</p>
+                    <p className="text-sm text-gray-500">Aspiring to study in Canada</p>
                   </div>
                 </div>
               </div>
@@ -156,15 +147,15 @@ const Index = () => {
               </div>
               <div className="mt-6 bg-white rounded-2xl p-6 shadow-lg">
                 <p className="text-sm text-gray-600 mb-4 italic">
-                  "Amazing platform! The document management and deadline reminders saved me so much time during application season."
+                  "The deadline reminders are a lifesaver! Juggling entrance exams and applications is hard, but this platform kept me on track. I managed to get a merit scholarship thanks to this."
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-blue-500 rounded-full mr-3 flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">DC</span>
+                    <span className="text-white font-bold text-sm">SK</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">David Chen</p>
-                    <p className="text-sm text-gray-500">Harvard University</p>
+                    <p className="font-semibold text-gray-800">Sameer Khan</p>
+                    <p className="text-sm text-gray-500">IIT Bombay</p>
                   </div>
                 </div>
               </div>
@@ -177,7 +168,7 @@ const Index = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-16">
-            3 Steps Applications Process
+            How It Works in 3 Simple Steps
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* Step 1 */}
@@ -185,10 +176,9 @@ const Index = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-primary rounded-full text-white text-2xl font-bold mb-6">
                 1
               </div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">Create Profile</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Build Your Profile</h3>
               <p className="text-muted-foreground">
-                Tell us about your academic background, interests, 
-                and goals to get personalized matches.
+                Quickly tell us about your academic journey, your passions, and your goals. It only takes a few minutes.
               </p>
             </div>
 
@@ -197,10 +187,9 @@ const Index = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-primary rounded-full text-white text-2xl font-bold mb-6">
                 2
               </div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">Browse Matches</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Get Matched</h3>
               <p className="text-muted-foreground">
-                Review AI-powered scholarship recommendations 
-                tailored specifically to your profile.
+                Our smart AI instantly finds scholarships that are a great fit for you. No more endless searching.
               </p>
             </div>
 
@@ -209,10 +198,9 @@ const Index = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-primary rounded-full text-white text-2xl font-bold mb-6">
                 3
               </div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">Apply & Track</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Apply with Confidence</h3>
               <p className="text-muted-foreground">
-                Apply directly through our platform and track your 
-                application progress in real-time.
+                We give you direct links to apply and help you track your progress, so you never miss a deadline.
               </p>
             </div>
           </div>
@@ -223,11 +211,10 @@ const Index = () => {
       <section className="py-20 bg-gradient-hero">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to Find Your Perfect Scholarships?
+            Ready to Find Your Perfect Scholarship?
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Join thousands of students who have simplified their scholarship search and application 
-            process.
+            Join thousands of students who have simplified their scholarship search. Your future is waiting.
           </p>
           <Button variant="warning" size="xl" onClick={handleGetStarted}>
             Get Started Now
@@ -240,14 +227,14 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             <div>
-              <span className="text-lg font-bold text-primary">Smart Scholar Founder</span>
-              <p className="text-muted-foreground mt-1">© 2024 Smart Scholar Founder. All rights reserved.</p>
+              <span className="text-lg font-bold text-primary">Smart Scholar Finder</span>
+              <p className="text-muted-foreground mt-1">© 2025 Smart Scholar Finder. All rights reserved.</p>
             </div>
             <div className="flex space-x-8">
-              <a href="#" className="text-muted-foreground hover:text-primary">Home</a>
-              <a href="https://aismartscholar.netlify.app/news" className="text-muted-foreground hover:text-primary">Reviews</a>
-              <a href="https://aismartscholar.netlify.app/faq" className="text-muted-foreground hover:text-primary">FAQs</a>
-              <a href="https://aismartscholar.netlify.app/contact" className="text-muted-foreground hover:text-primary">Contact</a>
+              <Link to="/" className="text-muted-foreground hover:text-primary">Home</Link>
+              <Link to="/news" className="text-muted-foreground hover:text-primary">News</Link>
+              <Link to="/faq" className="text-muted-foreground hover:text-primary">FAQs</Link>
+              <Link to="/contact" className="text-muted-foreground hover:text-primary">Contact</Link>
             </div>
           </div>
         </div>
