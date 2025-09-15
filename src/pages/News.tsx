@@ -10,166 +10,166 @@ const News = () => {
   const newsArticles = [
     {
       id: 1,
-      title: "The Rise of AI in Personalized Learning",
-      excerpt: "Artificial intelligence is reshaping education by offering personalized learning paths for students, adapting to their individual needs and pace.",
-      author: "Jane Doe",
-      publication: "Education Weekly",
+      title: "AI in Education: A Boon for Indian Students?",
+      excerpt: "AI-powered platforms are helping Indian students prepare for competitive exams and find scholarships for studying abroad.",
+      author: "Priya Sharma",
+      publication: "India Today Education",
       date: "2025-09-10",
-      content: "AI-powered tools are helping teachers to create customized lesson plans and providing students with adaptive exercises, making learning more effective and engaging."
+      content: "With the rise of AI, students in India have access to personalized learning tools that can help them crack tough exams like JEE and NEET."
     },
     {
       id: 2,
-      title: "Microlearning and Gamification: The Future of Student Engagement",
-      excerpt: "Educational institutions are adopting microlearning and gamification to make learning more interactive and fun.",
-      author: "John Smith",
-      publication: "EdTech Magazine",
+      title: "The Global Trend of Microlearning",
+      excerpt: "Educational institutions worldwide are adopting microlearning to cater to the shorter attention spans of the new generation of learners.",
+      author: "David Miller",
+      publication: "World Education News",
       date: "2025-09-08",
-      content: "Bite-sized lessons and game-like elements are proving to be successful in capturing students' attention and improving knowledge retention."
+      content: "Bite-sized content is becoming the norm, as it allows for flexible and on-the-go learning, a trend seen from the US to Japan."
     },
     {
       id: 3,
-      title: "From STEM to STEAM: The Importance of Arts in Education",
-      excerpt: "The focus is shifting from STEM to STEAM, integrating Arts into Science, Technology, Engineering, and Math to foster creativity and innovation.",
-      author: "Emily White",
-      publication: "The Learning Curve",
+      title: "From STEM to STEAM: A Curriculum Shift in India",
+      excerpt: "Indian schools are slowly but surely integrating Arts into the traditional STEM curriculum to foster creativity and innovation.",
+      author: "Aarav Singh",
+      publication: "The Hindu Education Plus",
       date: "2025-09-05",
-      content: "By incorporating arts and design principles, STEAM education encourages students to think more creatively and develop problem-solving skills."
+      content: "The new National Education Policy (NEP) in India emphasizes a multidisciplinary approach, paving the way for a STEAM-focused education system."
     },
     {
       id: 4,
-      title: "No-Essay Scholarships Gain Popularity Among Students",
-      excerpt: "A growing number of organizations are offering no-essay scholarships, reducing the barrier to entry for many students.",
-      author: "David Green",
-      publication: "Scholarship Times",
+      title: "No-Essay Scholarships: A Relief for Students Everywhere",
+      excerpt: "The trend of no-essay scholarships is growing, offering students from all backgrounds a shot at funding without the stress of writing essays.",
+      author: "Emily Chen",
+      publication: "Global Scholarship Digest",
       date: "2025-09-02",
-      content: "These scholarships are often based on criteria like academic achievement, community service, or even a random draw, making it easier for students to apply for multiple opportunities."
+      content: "These scholarships are a great way to quickly apply for funding and are becoming popular on platforms that aggregate opportunities from different countries."
     },
     {
       id: 5,
-      title: "Sallie Mae Fund Announces 'Completing the Dream' Scholarship",
-      excerpt: "The Sallie Mae Fund is offering up to $2,500 to 170 students through its 'Completing the Dream' scholarship program in 2025.",
+      title: "Sallie Mae Fund's 'Completing the Dream' Scholarship for US Students",
+      excerpt: "The Sallie Mae Fund is offering up to $2,500 to 170 students in the US through its 'Completing the Dream' scholarship program.",
       author: "Official Announcement",
       publication: "Sallie Mae News",
       date: "2025-08-28",
-      content: "This scholarship is designed to help students from underserved communities to complete their post-secondary education."
+      content: "This scholarship is aimed at helping students from minority and underserved communities in the United States complete their higher education."
     },
     {
       id: 6,
-      title: "UNCF Continues to be a Top Scholarship Provider for Minority Students",
-      excerpt: "The UNCF remains a leading private scholarship provider for minority students, awarding over $100 million annually.",
+      title: "UNCF Scholarships for Minority Students in the US",
+      excerpt: "The UNCF continues its mission to support minority students in the US with over $100 million in scholarships annually.",
       author: "Press Release",
       publication: "UNCF",
       date: "2025-08-25",
-      content: "With several scholarship deadlines in September, the UNCF provides a wide range of opportunities for students of color."
+      content: "The UNCF has a long history of supporting African American students and provides a wide range of scholarships with varying eligibility criteria."
     },
     {
       id: 7,
-      title: "Dr Pepper's $100,000 Tuition Giveaway is Back",
-      excerpt: "The popular Dr Pepper's Tuition Giveaway is once again offering students a chance to win $100,000 in tuition.",
+      title: "Dr Pepper's Tuition Giveaway Attracts US College Hopefuls",
+      excerpt: "The popular Dr Pepper's Tuition Giveaway is a major opportunity for students in the US to win substantial tuition funding.",
       author: "Marketing Team",
       publication: "Dr Pepper",
       date: "2025-08-20",
-      content: "Students can enter the giveaway by submitting a video explaining how the tuition money would help them achieve their goals."
+      content: "The contest, which involves a video submission, has become a well-known path to winning significant tuition money in the United States."
     },
     {
       id: 8,
-      title: "Panda Express's Panda Cares Scholars Program Now Open",
-      excerpt: "The Panda Cares Scholars Program, from Panda Express, is now accepting applications for its scholarship program.",
+      title: "Panda Cares Scholars Program for US High School Students",
+      excerpt: "The Panda Cares Scholars Program, by Panda Express, is a significant scholarship opportunity for US high school students.",
       author: "Panda Express",
       publication: "Panda Cares",
       date: "2025-08-18",
-      content: "This program provides scholarships to high school students who have demonstrated academic excellence and community involvement."
+      content: "The program focuses on academic achievement and community involvement, providing support to young leaders across the United States."
     }
   ];
 
   const platformReviews = [
     {
       id: 1,
-      title: "Found my dream scholarship!",
-      excerpt: "I'd been searching for months with no luck. Within a week of using this platform, I found a scholarship that was a perfect match for my major and financial needs.",
-      author: "Jessica M.",
-      publication: "Student",
+      title: "A true blessing for an aspiring engineer!",
+      excerpt: "I was struggling to find scholarships for my engineering studies in India. This platform was a game-changer, showing me options I never knew existed.",
+      author: "Ananya Rao",
+      publication: "Student, Bangalore",
       date: "2025-09-12",
       rating: 5,
       type: "positive",
-      content: "The matching algorithm is amazing! It filtered out all the noise and showed me exactly what I was looking for. I'm so grateful for this platform."
+      content: "The categorization of scholarships by field of study is incredibly helpful. I found a scholarship from a private trust that covers my entire tuition. Thank you!"
     },
     {
       id: 2,
-      title: "Great platform, but could use a small tweak",
-      excerpt: "I really like the user interface and how easy it is to navigate. My only suggestion would be to add a feature to save my filter preferences.",
-      author: "Michael R.",
-      publication: "Student",
+      title: "Decent, but needs more UK-specific scholarships",
+      excerpt: "As a student in the UK, I found the platform easy to use, but the database seems more focused on US and Indian scholarships.",
+      author: "Ben Carter",
+      publication: "Student, Manchester",
       date: "2025-09-10",
-      rating: 4,
-      type: "good",
-      content: "It's a bit of a hassle to re-apply my filters every time I log in. Other than that, it's a fantastic tool that has helped me find several promising scholarships."
+      rating: 3,
+      type: "mixed",
+      content: "It's a good starting point, but I had to supplement my search with other resources to find local scholarships. Would be great to see more options for UK students."
     },
     {
       id: 3,
-      title: "Helpful, but the UI feels a bit dated",
-      excerpt: "The platform is definitely useful and has a good database of scholarships. However, the user interface could use a modern refresh.",
-      author: "Samantha K.",
-      publication: "Student",
+      title: "Finally, a platform that understands Indian students!",
+      excerpt: "This app is brilliant! It has all the government and private scholarships for us here in India. The interface is so simple to use.",
+      author: "Karan Sharma",
+      publication: "Student, Delhi",
       date: "2025-09-09",
-      rating: 3,
-      type: "mixed",
-      content: "Sometimes it's hard to find certain buttons and the overall design feels a little clunky. But in terms of functionality, it gets the job done."
+      rating: 5,
+      type: "positive",
+      content: "I especially love the alerts for deadlines. It helped me apply for the state scholarship just in time. Every Indian student should use this."
     },
     {
       id: 4,
-      title: "A lifesaver for my daughter!",
-      excerpt: "As a parent, navigating the world of scholarships is overwhelming. This platform made it so much easier to help my daughter find and apply for scholarships.",
-      author: "Sarah P.",
-      publication: "Parent",
+      title: "A must-have for parents of college-bound kids in India",
+      excerpt: "I was so worried about my son's college fees. This platform gave us a clear list of scholarships he was eligible for. It took away so much stress.",
+      author: "Mrs. Iyer",
+      publication: "Parent, Chennai",
       date: "2025-09-07",
       rating: 5,
       type: "positive",
-      content: "The deadline reminders are a godsend! We were able to stay organized and submit all her applications on time. Highly recommend to all parents."
+      content: "The document checklist for each application was a fantastic feature. We were able to prepare everything in advance. A very thoughtful platform."
     },
     {
       id: 5,
-      title: "Not many options for my major",
-      excerpt: "I'm a marine biology major, and I found that there weren't many scholarships listed for my specific field. The platform seems more geared towards common majors.",
-      author: "Alex T.",
-      publication: "Student",
+      title: "Found a niche scholarship for my arts degree!",
+      excerpt: "I'm studying fine arts in the US and it's hard to find funding. I was surprised to find a scholarship here specifically for painters.",
+      author: "Chloe Kim",
+      publication: "Student, New York",
       date: "2025-09-05",
-      rating: 2,
-      type: "negative",
-      content: "I spent a lot of time setting up my profile, only to find a handful of scholarships, none of which were a great fit. It was a disappointing experience."
+      rating: 4,
+      type: "good",
+      content: "The platform has a surprisingly diverse range of scholarships if you dig deep enough. The search filters could be a bit more intuitive, but I'm happy with what I found."
     },
     {
       id: 6,
-      title: "An invaluable tool for my students",
-      excerpt: "As a high school counselor, I'm always looking for resources to help my students. This platform has become my go-to for scholarship research.",
-      author: "Mr. Davis",
-      publication: "High School Counselor",
+      title: "An excellent resource for my students",
+      excerpt: "As a counselor in a Mumbai school, I recommend this platform to all my students. It's the most comprehensive I've seen for Indian scholarships.",
+      author: "Mr. Deshpande",
+      publication: "High School Counselor, Mumbai",
       date: "2025-09-03",
-      rating: 4,
-      type: "good",
-      content: "It's user-friendly and has a comprehensive database. I've recommended it to all my students, and many of them have had success with it."
+      rating: 5,
+      type: "positive",
+      content: "It saves my students and me a lot of time. The ability to track applications in one place is a huge advantage. Keep up the great work!"
     },
     {
       id: 7,
-      title: "The deadline tracking is a game-changer!",
-      excerpt: "I used to have a complicated spreadsheet to keep track of scholarship deadlines. This platform's deadline tracking feature has made my life so much easier.",
-      author: "Maria G.",
-      publication: "Student",
+      title: "Great for finding scholarships to study in Canada",
+      excerpt: "I'm from the UAE and wanted to study in Canada. This platform had a dedicated section for international students and I found some great options.",
+      author: "Fatima Al-Jamil",
+      publication: "Student, Dubai",
       date: "2025-09-01",
-      rating: 5,
-      type: "positive",
-      content: "I get timely reminders for all my saved scholarships, so I never have to worry about missing a deadline. It's a simple feature, but it makes a huge difference."
+      rating: 4,
+      type: "good",
+      content: "The process was very transparent. I wish there were more reviews from other international students on the scholarships themselves, but the platform is great."
     },
     {
       id: 8,
-      title: "Good app, but too many notifications",
-      excerpt: "The app is useful, but I wish I could customize the notification settings. I get way too many emails and push notifications.",
-      author: "Ben C.",
-      publication: "Student",
+      title: "Good, but the notifications are too much!",
+      excerpt: "The app is useful for sure, but I get so many emails and notifications every day. It feels a bit like spam.",
+      author: "Rajesh Kumar",
+      publication: "Student, Pune",
       date: "2025-08-30",
       rating: 3,
       type: "mixed",
-      content: "I want to stay updated, but I don't need a notification for every single new scholarship that gets added. More control over notifications would be great."
+      content: "I had to turn off notifications completely. It would be better if I could choose to get a weekly digest instead of constant updates. Otherwise, it's a solid app."
     }
   ];
 
@@ -288,7 +288,7 @@ const News = () => {
                   <div className="mb-4">
                     {getStarRating(review.rating)}
                   </div>
-                  <blockquote className="text-sm italic text-muted-foreground border-l-4 border-.primary pl-4">
+                  <blockquote className="text-sm italic text-muted-foreground border-l-4 border-primary pl-4">
                     "{review.content}"
                   </blockquote>
                 </CardContent>
