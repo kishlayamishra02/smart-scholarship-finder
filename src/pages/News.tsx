@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Star, ThumbsUp, ThumbsDown, MessageCircle } from "lucide-react";
+import { ArrowLeft, Star } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const News = () => {
@@ -10,166 +10,166 @@ const News = () => {
   const newsArticles = [
     {
       id: 1,
-      title: "US Student Loan Crisis Reaches $1.7 Trillion as Gen Z Faces Debt Trap",
-      excerpt: "The US student loan crisis significantly impacts Gen Z, who face rising tuition costs and potential debt traps that delay life milestones.",
-      author: "TOI Education",
-      publication: "Times of India",
-      date: "2024-09-12",
-      content: "Careful planning is crucial as debt can delay life milestones and not all degrees offer equal financial returns. Exploring federal loans and alternative educational paths like trade schools is essential."
+      title: "The Rise of AI in Personalized Learning",
+      excerpt: "Artificial intelligence is reshaping education by offering personalized learning paths for students, adapting to their individual needs and pace.",
+      author: "Jane Doe",
+      publication: "Education Weekly",
+      date: "2025-09-10",
+      content: "AI-powered tools are helping teachers to create customized lesson plans and providing students with adaptive exercises, making learning more effective and engaging."
     },
     {
       id: 2,
-      title: "Princeton University Budget Cuts Impact Student Employment",
-      excerpt: "Budget constraints reshape student employment with reduced hours, merged roles, and uncertainty across departments.",
-      author: "TOI Education",
-      publication: "Times of India",
-      date: "2024-09-12",
-      content: "Students face heavier workloads without added pay while departments adjust operations. From dining services to libraries, many jobs see steep reductions leaving students unsure of future schedules."
+      title: "Microlearning and Gamification: The Future of Student Engagement",
+      excerpt: "Educational institutions are adopting microlearning and gamification to make learning more interactive and fun.",
+      author: "John Smith",
+      publication: "EdTech Magazine",
+      date: "2025-09-08",
+      content: "Bite-sized lessons and game-like elements are proving to be successful in capturing students' attention and improving knowledge retention."
     },
     {
       id: 3,
-      title: "AIIMS Launches 'Never Alone' Mental Health Programme for Students",
-      excerpt: "New comprehensive mental health initiative targets early intervention to prevent academic and social obstacles for students.",
-      author: "ETimes Health",
-      publication: "Times of India",
-      date: "2024-09-12",
-      content: "Student mental health issues create major obstacles that damage academic results and social bonds. The 'Never Alone' program works to prevent negative outcomes through early intervention services."
+      title: "From STEM to STEAM: The Importance of Arts in Education",
+      excerpt: "The focus is shifting from STEM to STEAM, integrating Arts into Science, Technology, Engineering, and Math to foster creativity and innovation.",
+      author: "Emily White",
+      publication: "The Learning Curve",
+      date: "2025-09-05",
+      content: "By incorporating arts and design principles, STEAM education encourages students to think more creatively and develop problem-solving skills."
     },
     {
       id: 4,
-      title: "Haryana Government Announces Funding for 2,300 EWS Students",
-      excerpt: "Significant government initiative to support economically weaker sections with comprehensive educational funding coverage.",
-      author: "TNN",
-      publication: "Times of India",
-      date: "2024-09-15",
-      content: "The funding covers tuition fees, books, and essential educational resources to ensure quality education access for students from economically disadvantaged backgrounds."
+      title: "No-Essay Scholarships Gain Popularity Among Students",
+      excerpt: "A growing number of organizations are offering no-essay scholarships, reducing the barrier to entry for many students.",
+      author: "David Green",
+      publication: "Scholarship Times",
+      date: "2025-09-02",
+      content: "These scholarships are often based on criteria like academic achievement, community service, or even a random draw, making it easier for students to apply for multiple opportunities."
     },
     {
       id: 5,
-      title: "CBSE Scraps Additional Subject Option Without Prior Notice",
-      excerpt: "Thousands of private students left distressed as CBSE removes additional subject option for 2026 board exams without warning.",
-      author: "TOI Education",
-      publication: "Times of India",
-      date: "2024-09-13",
-      content: "Many drop-year aspirants who relied on this option for JEE, NEET, or career shifts now face uncertain futures. Students demand clarity as CBSE remains silent amid mounting frustration."
+      title: "Sallie Mae Fund Announces 'Completing the Dream' Scholarship",
+      excerpt: "The Sallie Mae Fund is offering up to $2,500 to 170 students through its 'Completing the Dream' scholarship program in 2025.",
+      author: "Official Announcement",
+      publication: "Sallie Mae News",
+      date: "2025-08-28",
+      content: "This scholarship is designed to help students from underserved communities to complete their post-secondary education."
     },
     {
       id: 6,
-      title: "Tribal Students Meet President During National Integration Tour",
-      excerpt: "Sixteen tribal students from Assam have inspiring meeting with President Murmu at Rashtrapati Bhavan during army-organized tour.",
-      author: "TNN", 
-      publication: "Times of India",
-      date: "2024-09-12",
-      content: "President Murmu praised the Indian Army's initiative to connect students from remote regions with India's diverse traditions and democratic institutions through educational visits."
+      title: "UNCF Continues to be a Top Scholarship Provider for Minority Students",
+      excerpt: "The UNCF remains a leading private scholarship provider for minority students, awarding over $100 million annually.",
+      author: "Press Release",
+      publication: "UNCF",
+      date: "2025-08-25",
+      content: "With several scholarship deadlines in September, the UNCF provides a wide range of opportunities for students of color."
     },
     {
       id: 7,
-      title: "Student Loan Borrowers Increasingly Pause Payments Amid Economic Pressure",
-      excerpt: "Growing number of UK-based borrowers use deferments and forbearances for relief, but experts warn of long-term risks.",
-      author: "TOI Education",
-      publication: "Times of India", 
-      date: "2024-09-08",
-      content: "While these options offer vital short-term relief and help avoid default, they come with risks including interest accrual. Understanding the difference between options is essential for borrowers."
+      title: "Dr Pepper's $100,000 Tuition Giveaway is Back",
+      excerpt: "The popular Dr Pepper's Tuition Giveaway is once again offering students a chance to win $100,000 in tuition.",
+      author: "Marketing Team",
+      publication: "Dr Pepper",
+      date: "2025-08-20",
+      content: "Students can enter the giveaway by submitting a video explaining how the tuition money would help them achieve their goals."
     },
     {
       id: 8,
-      title: "Five Students Arrested for Assaulting Manipur Student in Guwahati",
-      excerpt: "In Guwahati's Jayanagar, five students were apprehended for the brutal assault of a 21-year-old Manipuri student.",
-      author: "TNN",
-      publication: "Times of India",
-      date: "2024-09-12", 
-      content: "Authorities suggest the altercation stemmed from ragging on campus. The arrested individuals include Taufik Ali, Riyam Deka, Jahed Ahmed, Priyamjyoti Kashyap, and Chanakya Mohan Borah."
+      title: "Panda Express's Panda Cares Scholars Program Now Open",
+      excerpt: "The Panda Cares Scholars Program, from Panda Express, is now accepting applications for its scholarship program.",
+      author: "Panda Express",
+      publication: "Panda Cares",
+      date: "2025-08-18",
+      content: "This program provides scholarships to high school students who have demonstrated academic excellence and community involvement."
     }
   ];
 
   const platformReviews = [
     {
       id: 1,
-      title: "Smart Scholarship Finder Revolutionizes Educational Funding Search",
-      excerpt: "The AI-powered platform has helped over 10,000 students find matching scholarships with a 95% satisfaction rate.",
-      author: "Sarah Johnson",
-      publication: "Education Today",
-      date: "2024-01-15",
+      title: "Found my dream scholarship!",
+      excerpt: "I'd been searching for months with no luck. Within a week of using this platform, I found a scholarship that was a perfect match for my major and financial needs.",
+      author: "Jessica M.",
+      publication: "Student",
+      date: "2025-09-12",
       rating: 5,
       type: "positive",
-      content: "This innovative platform is changing how students approach scholarship hunting. The AI recommendations are incredibly accurate and have saved me countless hours of research."
+      content: "The matching algorithm is amazing! It filtered out all the noise and showed me exactly what I was looking for. I'm so grateful for this platform."
     },
     {
       id: 2,
-      title: "New AI Platform Makes Scholarship Applications Effortless",
-      excerpt: "Students praise the intuitive interface and personalized matching system that connects them with relevant opportunities.",
-      author: "Michael Chen",
-      publication: "Tech Education Weekly",
-      date: "2024-01-12",
-      rating: 5,
-      type: "positive",
-      content: "The document management and deadline tracking features are game-changers. I never miss an application deadline anymore."
+      title: "Great platform, but could use a small tweak",
+      excerpt: "I really like the user interface and how easy it is to navigate. My only suggestion would be to add a feature to save my filter preferences.",
+      author: "Michael R.",
+      publication: "Student",
+      date: "2025-09-10",
+      rating: 4,
+      type: "good",
+      content: "It's a bit of a hassle to re-apply my filters every time I log in. Other than that, it's a fantastic tool that has helped me find several promising scholarships."
     },
     {
       id: 3,
-      title: "Smart Scholarship Platform Shows Promise but Needs Refinement",
-      excerpt: "While the core concept is solid, some users report occasional mismatches in scholarship recommendations.",
-      author: "Dr. Lisa Rodriguez",
-      publication: "Higher Ed Review",
-      date: "2024-01-10",
-      rating: 4,
-      type: "good",
-      content: "The platform has great potential. Most recommendations are spot-on, though I've noticed a few suggestions that didn't quite match my profile. Overall, it's a valuable tool."
+      title: "Helpful, but the UI feels a bit dated",
+      excerpt: "The platform is definitely useful and has a good database of scholarships. However, the user interface could use a modern refresh.",
+      author: "Samantha K.",
+      publication: "Student",
+      date: "2025-09-09",
+      rating: 3,
+      type: "mixed",
+      content: "Sometimes it's hard to find certain buttons and the overall design feels a little clunky. But in terms of functionality, it gets the job done."
     },
     {
       id: 4,
-      title: "Game-Changing Scholarship Finder Receives Industry Recognition",
-      excerpt: "The platform wins 'Innovation in Education Technology' award for its revolutionary approach to scholarship matching.",
-      author: "Robert Kim",
-      publication: "EdTech Innovation",
-      date: "2024-01-08",
+      title: "A lifesaver for my daughter!",
+      excerpt: "As a parent, navigating the world of scholarships is overwhelming. This platform made it so much easier to help my daughter find and apply for scholarships.",
+      author: "Sarah P.",
+      publication: "Parent",
+      date: "2025-09-07",
       rating: 5,
       type: "positive",
-      content: "Finally, a scholarship platform that actually understands what students need. The AI is incredibly smart and the interface is beautiful."
+      content: "The deadline reminders are a godsend! We were able to stay organized and submit all her applications on time. Highly recommend to all parents."
     },
     {
       id: 5,
-      title: "Mixed Reviews for New Scholarship Platform Launch",
-      excerpt: "Early adopters share varied experiences with the AI-powered matching system, citing both successes and areas for improvement.",
-      author: "Amanda Foster",
-      publication: "Student Voice Daily",
-      date: "2024-01-05",
-      rating: 3.5,
-      type: "mixed",
-      content: "It's a decent start. Found a few good scholarships through the platform, but some of the matches weren't relevant to my field. The customer support team was responsive though."
+      title: "Not many options for my major",
+      excerpt: "I'm a marine biology major, and I found that there weren't many scholarships listed for my specific field. The platform seems more geared towards common majors.",
+      author: "Alex T.",
+      publication: "Student",
+      date: "2025-09-05",
+      rating: 2,
+      type: "negative",
+      content: "I spent a lot of time setting up my profile, only to find a handful of scholarships, none of which were a great fit. It was a disappointing experience."
     },
     {
       id: 6,
-      title: "Scholarship Search Made Simple with AI Innovation",
-      excerpt: "The platform's machine learning algorithms successfully match students with opportunities they might have otherwise missed.",
-      author: "Jennifer Park",
-      publication: "Future Learning",
-      date: "2024-01-03",
+      title: "An invaluable tool for my students",
+      excerpt: "As a high school counselor, I'm always looking for resources to help my students. This platform has become my go-to for scholarship research.",
+      author: "Mr. Davis",
+      publication: "High School Counselor",
+      date: "2025-09-03",
       rating: 4,
       type: "good",
-      content: "I discovered scholarships I never knew existed! The platform really does find hidden gems. Just wish it had more international opportunities."
+      content: "It's user-friendly and has a comprehensive database. I've recommended it to all my students, and many of them have had success with it."
     },
     {
       id: 7,
-      title: "Student Scholarship Platform: Great Concept, Execution Needs Work",
-      excerpt: "Users appreciate the innovative approach but report technical issues and limited scholarship database coverage.",
-      author: "David Thompson",
-      publication: "Campus Technology",
-      date: "2024-01-01",
-      rating: 3,
-      type: "mixed",
-      content: "Love the idea and the design is clean, but I've encountered some bugs and the scholarship database seems limited for certain majors. Hopefully they'll expand soon."
+      title: "The deadline tracking is a game-changer!",
+      excerpt: "I used to have a complicated spreadsheet to keep track of scholarship deadlines. This platform's deadline tracking feature has made my life so much easier.",
+      author: "Maria G.",
+      publication: "Student",
+      date: "2025-09-01",
+      rating: 5,
+      type: "positive",
+      content: "I get timely reminders for all my saved scholarships, so I never have to worry about missing a deadline. It's a simple feature, but it makes a huge difference."
     },
     {
       id: 8,
-      title: "Scholarship Platform Disappoints with Inaccurate Matching",
-      excerpt: "Despite promising AI capabilities, some users report receiving irrelevant scholarship suggestions and poor customer support.",
-      author: "Mark Stevens",
-      publication: "Critical Ed Review",
-      date: "2023-12-28",
-      rating: 2,
-      type: "negative",
-      content: "Unfortunately, the platform didn't live up to the hype for me. Most scholarship suggestions were completely off-base for my profile and major. The support team was slow to respond to my concerns."
+      title: "Good app, but too many notifications",
+      excerpt: "The app is useful, but I wish I could customize the notification settings. I get way too many emails and push notifications.",
+      author: "Ben C.",
+      publication: "Student",
+      date: "2025-08-30",
+      rating: 3,
+      type: "mixed",
+      content: "I want to stay updated, but I don't need a notification for every single new scholarship that gets added. More control over notifications would be great."
     }
   ];
 
@@ -221,7 +221,7 @@ const News = () => {
             Student News & Platform Reviews
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Stay updated with the latest education news and read what users are saying about Smart Scholarship Finder.
+            Stay updated with the latest education news and read what users are saying about our platform.
           </p>
         </div>
 
@@ -288,7 +288,7 @@ const News = () => {
                   <div className="mb-4">
                     {getStarRating(review.rating)}
                   </div>
-                  <blockquote className="text-sm italic text-muted-foreground border-l-4 border-primary pl-4">
+                  <blockquote className="text-sm italic text-muted-foreground border-l-4 border-.primary pl-4">
                     "{review.content}"
                   </blockquote>
                 </CardContent>
@@ -300,7 +300,7 @@ const News = () => {
         <div className="text-center mt-12">
           <p className="text-muted-foreground">
             Have experience with our platform? 
-            <a href="mailto:kishlayamishra@gmail.com" className="text-primary hover:underline ml-1">
+            <a href="mailto:feedback@example.com" className="text-primary hover:underline ml-1">
               Share your feedback
             </a>
           </p>
