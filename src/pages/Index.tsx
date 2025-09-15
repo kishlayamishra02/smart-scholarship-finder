@@ -68,7 +68,7 @@ const Index = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
               Your Dream. Your Future. 
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  Funded.
+                  ‎ Funded.
               </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
