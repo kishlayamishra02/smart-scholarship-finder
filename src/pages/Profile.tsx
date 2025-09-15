@@ -292,7 +292,7 @@ const Profile = () => {
                   <SelectItem value="Sciences">Sciences</SelectItem>
                   <SelectItem value="Technology">Technology</SelectItem>
                   <SelectItem value="Mathematics">Mathematics</SelectItem>
-                  <SelectItem value="Other">Other</SelectItem>
+                  <SelectItem value="All Subjects">All Subjects</SelectItem>
                 </SelectContent>
               </Select>
             </div>
