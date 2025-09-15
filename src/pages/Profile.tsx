@@ -32,8 +32,7 @@ const Profile = () => {
     degree_program: '',
     field_of_study: '',
     education_level: '',
-    gpa_value: '',
-    gpa_scale: '4',
+    gpa: '',
     institution: '',
     graduation_year: '',
     financial_need: false,
@@ -47,6 +46,7 @@ const Profile = () => {
     community_service: ''
   });
 
+  // NEW: state for inline validation errors
   const [errorMessage, setErrorMessage] = useState("");
 
   const steps = [
@@ -132,7 +132,7 @@ const Profile = () => {
         if (!formData.education_level?.trim()) missing.push("Education Level");
         if (!formData.field_of_study?.trim()) missing.push("Field of Study");
         if (!formData.institution?.trim()) missing.push("Institution");
-        if (!formData.gpa_value?.trim()) missing.push("GPA");
+        if (!formData.gpa?.trim()) missing.push("GPA");
         if (missing.length > 0) {
           setErrorMessage("Missing: " + missing.join(", "));
           return false;
@@ -233,7 +233,7 @@ const Profile = () => {
                     <SelectItem value="UK">United Kingdom</SelectItem>
                     <SelectItem value="Canada">Canada</SelectItem>
                     <SelectItem value="Australia">Australia</SelectItem>
-                    <SelectItem value_="Germany">Germany</SelectItem>
+                    <SelectItem value="Germany">Germany</SelectItem>
                     <SelectItem value="France">France</SelectItem>
                     <SelectItem value="Netherlands">Netherlands</SelectItem>
                     <SelectItem value="Singapore">Singapore</SelectItem>
@@ -297,56 +297,30 @@ const Profile = () => {
               </Select>
             </div>
             <div className="grid grid-cols-2 gap-4">
-                <div>
-                    <Label htmlFor="level">Education Level *</Label>
-                    <Select value={formData.education_level} onValueChange={(value) => updateFormData('education_level', value)}>
-                    <SelectTrigger className="mt-1">
-                        <SelectValue placeholder="Select level" />
-                    </SelectTrigger>
-                    <SelectContent>
-                        <SelectItem value="undergraduate">Undergraduate</SelectItem>
-                        <SelectItem value="graduate">Graduate</SelectItem>
-                        <SelectItem value="postgraduate">Postgraduate</SelectItem>
-                        <SelectItem value="phd">PhD</SelectItem>
-                    </SelectContent>
-                    </Select>
-                </div>
-                <div className="grid grid-cols-2 gap-4">
-                    <div>
-                        <Label htmlFor="gpa_value">GPA *</Label>
-                        <Input
-                            id="gpa_value"
-                            type="number"
-                            step="0.01"
-                            placeholder="e.g. 3.7/ 9.2"
-                            className="mt-1"
-                            value={formData.gpa_value}
-                            onChange={(e) => {
-                                const value = e.target.value;
-                                const scale = formData.gpa_scale || 4;
-                                if (parseFloat(value) > scale) {
-                                    updateFormData('gpa_value', scale.toString());
-                                } else {
-                                    updateFormData('gpa_value', value);
-                                }
-                            }}
-                            max={formData.gpa_scale || 4}
-                            min="0"
-                        />
-                    </div>
-                    <div>
-                        <Label htmlFor="gpa_scale">GPA Scale *</Label>
-                        <Select value={formData.gpa_scale} onValueChange={(value) => updateFormData('gpa_scale', value)}>
-                            <SelectTrigger className="mt-1">
-                                <SelectValue placeholder="Select scale" />
-                            </SelectTrigger>
-                            <SelectContent>
-                                <SelectItem value="4">Out of 4.0</SelectItem>
-                                <SelectItem value="10">Out of 10.0</SelectItem>
-                            </SelectContent>
-                        </Select>
-                    </div>
-                </div>
+              <div>
+                <Label htmlFor="level">Education Level *</Label>
+                <Select value={formData.education_level} onValueChange={(value) => updateFormData('education_level', value)}>
+                  <SelectTrigger className="mt-1">
+                    <SelectValue placeholder="Select level" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="undergraduate">Undergraduate</SelectItem>
+                    <SelectItem value="graduate">Graduate</SelectItem>
+                    <SelectItem value="postgraduate">Postgraduate</SelectItem>
+                    <SelectItem value="phd">PhD</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+              <div>
+                <Label htmlFor="gpa">GPA/Academic Score *</Label>
+                <Input 
+                  id="gpa" 
+                  placeholder="e.g. 3.7/4.0 or 85%" 
+                  className="mt-1"
+                  value={formData.gpa}
+                  onChange={(e) => updateFormData('gpa', e.target.value)}
+                />
+              </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div>
