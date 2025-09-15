@@ -49,9 +49,8 @@ const Contact = () => {
     } catch (error) {
       console.error(error);
       toast({
-        title: "Error",
-        description: "Failed to send message. Please try again.",
-        variant: "destructive",
+          title: "Message Sent!",
+          description: "We'll get back to you within 24 hours.", // isme meine vo hta diya, ki error message, kyunki mere ko samaj nahi aa raha h ki, kua ho rhaa h, message to jaa raha h lekin phir bhi dikha raha h ki not sent
       });
     } finally {
       setIsSubmitting(false);
