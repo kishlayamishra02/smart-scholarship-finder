@@ -244,10 +244,10 @@ const Index = () => {
               <p className="text-muted-foreground mt-1">© 2024 Smart Scholar Founder. All rights reserved.</p>
             </div>
             <div className="flex space-x-8">
-              <a href="#" className="text-muted-foreground hover:text-primary">About</a>
-              <a href="#" className="text-muted-foreground hover:text-primary">Privacy</a>
-              <a href="#" className="text-muted-foreground hover:text-primary">Terms</a>
-              <a href="#" className="text-muted-foreground hover:text-primary">Contact</a>
+              <a href="#" className="text-muted-foreground hover:text-primary">Home</a>
+              <a href="https://aismartscholar.netlify.app/news" className="text-muted-foreground hover:text-primary">Reviews</a>
+              <a href="https://aismartscholar.netlify.app/faq" className="text-muted-foreground hover:text-primary">FAQs</a>
+              <a href="https://aismartscholar.netlify.app/contact" className="text-muted-foreground hover:text-primary">Contact</a>
             </div>
           </div>
         </div>
