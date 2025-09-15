@@ -98,9 +98,10 @@ const Index = () => {
               <div className="mt-6 bg-white rounded-2xl p-6 shadow-lg">
                 <p className="text-sm text-gray-600 mb-4 italic">
                   "As an international student, finding funding is tough. The AI recommendations were spot-on and helped me find scholarships to study engineering in Canada. It's a great tool."
+                </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-yellow-500 rounded-full mr-3 flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">PP</span>
+                    <span className="text-white font-bold text-sm">DR</span>
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">David Rodriguez</p>
@@ -125,7 +126,7 @@ const Index = () => {
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-purple-500 rounded-full mr-3 flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">DR</span>
+                    <span className="text-white font-bold text-sm">PP</span>
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">Priya Patel</p>
