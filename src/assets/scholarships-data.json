@@ -1,0 +1,4672 @@
+[
+  {
+    "id": "scholarship_001",
+    "title": "Gates Cambridge Scholarship 2026-27",
+    "deadline": "2025-12-02",
+    "eligibility_text": "Outstanding non-UK applicants for postgraduate study at Cambridge demonstrating intellectual ability and leadership potential.",
+    "country": [
+      "International (Non-UK)"
+    ],
+    "award_amount": "£21,000 annually + fees",
+    "url": "https://www.gatescambridge.org/apply/",
+    "required_docs": [
+      "transcript",
+      "cv",
+      "personal_statement",
+      "references",
+      "research_proposal"
+    ],
+    "level": [
+      "Graduate",
+      "PhD"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Gates Cambridge Trust",
+    "description": "Full-cost scholarship for postgraduate study at Cambridge with additional discretionary funding.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "Outstanding academic record / 3.7+ GPA or 9/10",
+    "duration": "1-4 years",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_002",
+    "title": "Chevening Scholarships 2026-27",
+    "deadline": "2025-10-07",
+    "eligibility_text": "Outstanding applicants from Chevening-eligible countries for one-year Masters study in UK with 2+ years work experience.",
+    "country": [
+      "160+ Countries"
+    ],
+    "award_amount": "Full funding",
+    "url": "https://www.chevening.org/apply/",
+    "required_docs": [
+      "passport",
+      "degree_certificate",
+      "transcript",
+      "cv",
+      "references"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "UK Government",
+    "description": "Fully funded one-year Masters degree at UK universities with full living allowance and travel costs.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "Upper second-class 2:1 honours / 3.3+ GPA or 7.5/10",
+    "duration": "1 year",
+    "provider_type": "Government"
+  },
+  {
+    "id": "scholarship_003",
+    "title": "ICCR General Scholarship 2025-26",
+    "deadline": "2025-04-30",
+    "eligibility_text": "International students for undergraduate, graduate and cultural studies at Indian Universities and Institutes.",
+    "country": [
+      "International"
+    ],
+    "award_amount": "Full funding",
+    "url": "http://a2ascholarships.iccr.gov.in",
+    "required_docs": [
+      "passport",
+      "degree_certificate",
+      "transcript",
+      "medical_certificate"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate",
+      "Cultural Studies"
+    ],
+    "field": [
+      "All subjects",
+      "Indian Culture",
+      "Dance",
+      "Music"
+    ],
+    "provider": "Indian Council for Cultural Relations",
+    "description": "640 general scholarships for study in India with full tuition and living allowance.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "Good academic record / 3.0+ GPA or 6.5/10",
+    "duration": "Program duration",
+    "provider_type": "Government"
+  },
+  {
+    "id": "scholarship_004",
+    "title": "Reliance Foundation Undergraduate Scholarships 2025-26",
+    "deadline": "2025-10-04",
+    "eligibility_text": "Indian citizens enrolled in 1st year undergraduate program with family income less than INR 15 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "Up to INR 2,00,000",
+    "url": "https://www.scholarships.reliancefoundation.org/UG_Scholarship.aspx",
+    "required_docs": [
+      "transcript",
+      "income_certificate",
+      "admission_letter",
+      "aptitude_test"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Reliance Foundation",
+    "description": "5,000 merit-cum-means scholarships for underprivileged students with mentoring and career support.",
+    "application_fee": "NA",
+    "income": "Family income < INR 15 lakhs",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "Minimum 60% in Class 12 / 2.4+ GPA or 6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_005",
+    "title": "National Scholarship Portal 2025-26",
+    "deadline": "2025-08-31",
+    "eligibility_text": "Indian students from SC/ST/OBC/Minority communities pursuing higher education with financial need.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 7,000-20,000",
+    "url": "https://scholarships.gov.in/Students",
+    "required_docs": [
+      "community_certificate",
+      "income_certificate",
+      "transcript",
+      "aadhaar"
+    ],
+    "level": [
+      "Pre-Matric",
+      "Post-Matric",
+      "Higher Education"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Government of India",
+    "description": "Comprehensive platform covering central and state government scholarships for disadvantaged communities.",
+    "application_fee": "NA",
+    "income": "Family income ≤ INR 2-2.5 lakh",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "50%+ marks / 2.0+ GPA or 5/10",
+    "duration": "Academic year",
+    "provider_type": "Government"
+  },
+  {
+    "id": "scholarship_006",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 50000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_007",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 55000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_008",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 60000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_009",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 65000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_010",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 70000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_011",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 75000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_012",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 80000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_013",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 85000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_014",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 90000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_015",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 95000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_016",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 100000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_017",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 105000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_018",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 110000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_019",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 115000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_020",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 120000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_021",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 125000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_022",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 130000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_023",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 135000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_024",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 140000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_025",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 145000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_026",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 150000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_027",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 155000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_028",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 160000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_029",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 165000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_030",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 170000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_031",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 175000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_032",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 180000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_033",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 185000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_034",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 190000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_035",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 195000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_036",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 200000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_037",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 205000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_038",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 210000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_039",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 215000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_040",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 220000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_041",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 225000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_042",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 230000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_043",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 235000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_044",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 240000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_045",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 245000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_046",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 250000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_047",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 255000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_048",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 260000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_049",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 265000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_050",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 270000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_051",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 275000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_052",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 280000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_053",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 285000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_054",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 290000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_055",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 295000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_056",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 300000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_057",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 305000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_058",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 310000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_059",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 315000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_060",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 320000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_061",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 325000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_062",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 330000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_063",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 335000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_064",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 340000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_065",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 345000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_066",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 350000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_067",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 355000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_068",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 360000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_069",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 365000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_070",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 370000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_071",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 375000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_072",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 380000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_073",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 385000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_074",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 390000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_075",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 395000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_076",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 400000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_077",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 405000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_078",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 410000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.2+ GPA or 8.0/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_079",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 415000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.3+ GPA or 8.3/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_080",
+    "title": "Swami Dayanand Education Foundation Scholarship 2025",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Students from agricultural backgrounds with 80%+ in Class 12, cleared JEE/NEET, family income < INR 12 lakhs.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 420000",
+    "url": "https://www.swamidayanand.org/scholarship-india",
+    "required_docs": [
+      "transcript",
+      "jee_neet_result",
+      "income_certificate",
+      "agricultural_documents"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Engineering",
+      "Medical",
+      "Technical"
+    ],
+    "provider": "Swami Dayanand Education Foundation",
+    "description": "Scholarship for students from agricultural backgrounds pursuing technical education.",
+    "application_fee": "NA",
+    "income": "Family income < INR 12 lakhs",
+    "gender": "30% reserved for females",
+    "age": "No drop year students",
+    "academic_score": "80%+ in Class 12 / 3.4+ GPA or 8.6/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_081",
+    "title": "Women's Scholarship for International Students 2026",
+    "deadline": "2026-08-28",
+    "eligibility_text": "Female students beginning undergraduate, graduate, or post-graduate studies demonstrating academic merit.",
+    "country": [
+      "International"
+    ],
+    "award_amount": "$5,000",
+    "url": "https://www.educations.com/scholarships/women-scholarship-for-international-students",
+    "required_docs": [
+      "transcript",
+      "motivation_letter",
+      "proof_of_enrollment"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate",
+      "PhD"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Educations.com",
+    "description": "Annual scholarship supporting women in higher education globally with applications open year-round.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Good academic standing / 2.5+ GPA or 6/10",
+    "duration": "1 year",
+    "provider_type": "Educational Platform"
+  },
+  {
+    "id": "scholarship_082",
+    "title": "AAUW International Fellowships",
+    "deadline": "2025-11-15",
+    "eligibility_text": "Women who are not U.S. citizens or permanent residents pursuing full-time graduate or postdoctoral study in the United States.",
+    "country": [
+      "International (Non-US)"
+    ],
+    "award_amount": "$18,000-30,000",
+    "url": "https://www.aauw.org/resources/programs/fellowships-grants/current-opportunities/international/",
+    "required_docs": [
+      "transcript",
+      "research_proposal",
+      "references",
+      "budget"
+    ],
+    "level": [
+      "Graduate",
+      "PhD",
+      "Postdoctoral"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "American Association of University Women",
+    "description": "Fellowship for international women pursuing graduate study or research in the United States.",
+    "application_fee": "$35",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Strong academic record / 3.5+ GPA or 8/10",
+    "duration": "1 year",
+    "provider_type": "Association"
+  },
+  {
+    "id": "scholarship_083",
+    "title": "British Council Scholarships for Women in STEM",
+    "deadline": "2026-04-22",
+    "eligibility_text": "Women from developing countries pursuing Masters degrees in STEM fields at UK universities.",
+    "country": [
+      "Developing Countries"
+    ],
+    "award_amount": "£10,000-15,000",
+    "url": "https://www.britishcouncil.in/study-uk/scholarships/womeninstem-scholarships",
+    "required_docs": [
+      "degree_certificate",
+      "transcript",
+      "ielts_score",
+      "personal_statement"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Science",
+      "Technology",
+      "Engineering",
+      "Mathematics"
+    ],
+    "provider": "British Council",
+    "description": "Scholarships empowering women from developing countries to study STEM in the UK.",
+    "application_fee": "NA",
+    "income": "Limited financial means",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "2:1 degree or equivalent / 3.3+ GPA or 7.5/10",
+    "duration": "1 year",
+    "provider_type": "Government Agency"
+  },
+  {
+    "id": "scholarship_084",
+    "title": "Women of the Vine & Spirits Foundation Scholarship",
+    "deadline": "2025-07-31",
+    "eligibility_text": "Female students 18+ enrolled in food, wine, hospitality, viticulture, or alcohol beverage industry programs.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$5,000",
+    "url": "https://www.scholarships.com/financial-aid/college-scholarships/scholarships-by-type/scholarships-for-women",
+    "required_docs": [
+      "transcript",
+      "essay",
+      "references",
+      "enrollment_verification"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "Hospitality",
+      "Viticulture",
+      "Food Science",
+      "Business"
+    ],
+    "provider": "Women of the Vine & Spirits Foundation",
+    "description": "Supporting women pursuing careers in the wine and spirits industry.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "18+ years",
+    "academic_score": "Good academic standing / 2.5+ GPA or 6/10",
+    "duration": "1 year",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_085",
+    "title": "AAUW American Dissertation Fellowship",
+    "deadline": "2025-09-30",
+    "eligibility_text": "Women scholars pursuing full-time study to complete dissertations in any field.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$25,000",
+    "url": "https://www.aauw.org/resources/programs/fellowships-grants/",
+    "required_docs": [
+      "dissertation_proposal",
+      "transcript",
+      "references",
+      "timeline"
+    ],
+    "level": [
+      "PhD"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "American Association of University Women",
+    "description": "Fellowship supporting women completing dissertations with emphasis on scholarly excellence.",
+    "application_fee": "$35",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.7+ GPA or 8.5/10",
+    "duration": "1 year",
+    "provider_type": "Association"
+  },
+  {
+    "id": "scholarship_086",
+    "title": "Women at Microsoft Scholarship",
+    "deadline": "2025-03-17",
+    "eligibility_text": "Female, non-binary, or gender-fluid students pursuing STEAM fields with minimum 3.0 GPA.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$5,000",
+    "url": "https://www.microsoft.com/en-us/diversity/programs/women-at-microsoft-scholarship",
+    "required_docs": [
+      "transcript",
+      "essay",
+      "references",
+      "enrollment_verification"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Science",
+      "Technology",
+      "Engineering",
+      "Arts",
+      "Mathematics"
+    ],
+    "provider": "Microsoft Corporation",
+    "description": "One-time scholarship for women and gender minorities in STEAM fields.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female/Non-binary/Gender-fluid",
+    "age": "Graduating high school senior",
+    "academic_score": "Minimum 3.0 GPA / 3.0+ GPA or 7/10",
+    "duration": "One-time award",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_087",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 200000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.2+ GPA or 7.5/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_088",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 210000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.3+ GPA or 7.7/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_089",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 220000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.4+ GPA or 7.9/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_090",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 230000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.5+ GPA or 8.1/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_091",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 240000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.6+ GPA or 8.3/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_092",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 250000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.7+ GPA or 8.5/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_093",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 260000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.8+ GPA or 8.7/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_094",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 270000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.9+ GPA or 8.9/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_095",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 280000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.2+ GPA or 7.5/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_096",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 290000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.3+ GPA or 7.7/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_097",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 300000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.4+ GPA or 7.9/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_098",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 310000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.5+ GPA or 8.1/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_099",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 320000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.6+ GPA or 8.3/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_100",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 330000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.7+ GPA or 8.5/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_101",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 340000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.8+ GPA or 8.7/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_102",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 350000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.9+ GPA or 8.9/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_103",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 360000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.2+ GPA or 7.5/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_104",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 370000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.3+ GPA or 7.7/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_105",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 380000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.4+ GPA or 7.9/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_106",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 390000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.5+ GPA or 8.1/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_107",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 400000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.6+ GPA or 8.3/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_108",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 410000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.7+ GPA or 8.5/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_109",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 420000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.8+ GPA or 8.7/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_110",
+    "title": "Bain & Company True North Scholarship for Women India",
+    "deadline": "2026-04-30",
+    "eligibility_text": "Female MBA students from top Indian business schools demonstrating leadership potential and commitment to positive impact.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 430000",
+    "url": "https://www.bain.com/careers/work-with-us/internships-programs/true-north-scholarship-for-women-india/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "references",
+      "leadership_portfolio"
+    ],
+    "level": [
+      "Graduate"
+    ],
+    "field": [
+      "Business",
+      "Management",
+      "Leadership"
+    ],
+    "provider": "Bain & Company",
+    "description": "Scholarship with mentorship program for women MBA students in India.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female",
+    "age": "NA",
+    "academic_score": "Excellent academic record / 3.9+ GPA or 8.9/10",
+    "duration": "1 year",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_111",
+    "title": "Point Foundation Flagship Scholarship",
+    "deadline": "2025-11-20",
+    "eligibility_text": "LGBTQ+ students with financial need and academic merit pursuing undergraduate or graduate degrees.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "Up to $25,000",
+    "url": "https://pointfoundation.org/scholarships/flagship",
+    "required_docs": [
+      "transcript",
+      "essays",
+      "fafsa",
+      "references",
+      "video"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Point Foundation",
+    "description": "Comprehensive scholarship and mentorship program for LGBTQ+ students with renewable funding up to 4 years.",
+    "application_fee": "NA",
+    "income": "Financial need required",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Minimum 3.3 GPA / 3.3+ GPA or 7.5/10",
+    "duration": "Renewable up to 4 years",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_112",
+    "title": "Pride Foundation Regional Scholarships",
+    "deadline": "2025-01-10",
+    "eligibility_text": "LGBTQ+ students and straight allies in Alaska, Idaho, Montana, Oregon, and Washington pursuing post-secondary education.",
+    "country": [
+      "Northwestern United States"
+    ],
+    "award_amount": "$1,000-10,000",
+    "url": "https://pridefoundation.org/find-funding/scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "financial_information"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate",
+      "Technical"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Pride Foundation",
+    "description": "Over 85 scholarship funds supporting LGBTQ+ students and allies in the Northwest.",
+    "application_fee": "NA",
+    "income": "Varies by scholarship",
+    "gender": "LGBTQ+ and allies",
+    "age": "NA",
+    "academic_score": "2.75+ GPA typically / 2.75+ GPA or 6.5/10",
+    "duration": "1 year",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_113",
+    "title": "Rainbow College Fund LGBTQ+ Scholarships",
+    "deadline": "2025-03-05",
+    "eligibility_text": "LGBTQ+ students demonstrating academic merit and community involvement.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,500-5,000",
+    "url": "https://rainbowcollegefund.org/scholarship-program/",
+    "required_docs": [
+      "transcript",
+      "essays",
+      "references",
+      "community_involvement"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Rainbow College Fund",
+    "description": "Financial support for LGBTQ+ students with emphasis on community engagement.",
+    "application_fee": "NA",
+    "income": "Financial need considered",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good academic standing / 2.5+ GPA or 6/10",
+    "duration": "1 year",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_114",
+    "title": "The Pinnacle Foundation Scholarship",
+    "deadline": "2026-07-01",
+    "eligibility_text": "Young LGBTQIA+ Australians aged 18-25 pursuing tertiary education with financial disadvantage.",
+    "country": [
+      "Australia"
+    ],
+    "award_amount": "AUD 10,000-15,000",
+    "url": "https://thepinnaclefoundation.org/our-scholars/apply-for-a-scholarship/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "financial_documentation",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "The Pinnacle Foundation",
+    "description": "Educational scholarships with mentoring and opportunities for young LGBTQIA+ Australians.",
+    "application_fee": "NA",
+    "income": "Financial disadvantage required",
+    "gender": "LGBTQIA+",
+    "age": "18-25 years",
+    "academic_score": "Good academic record / 2.8+ GPA or 6.5/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_115",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.3+ GPA or 5.5/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_116",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.4+ GPA or 5.8/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_117",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.5+ GPA or 6.1/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_118",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.6+ GPA or 6.4/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_119",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.7+ GPA or 6.7/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_120",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.8+ GPA or 7.0/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_121",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.9+ GPA or 7.3/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_122",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.3+ GPA or 5.5/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_123",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.4+ GPA or 5.8/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_124",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.5+ GPA or 6.1/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_125",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.6+ GPA or 6.4/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_126",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.7+ GPA or 6.7/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_127",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.8+ GPA or 7.0/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_128",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.9+ GPA or 7.3/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_129",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.3+ GPA or 5.5/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_130",
+    "title": "Adam Montes Pride Scholarship",
+    "deadline": "2026-03-22",
+    "eligibility_text": "LGBTQ+ students who are also underrepresented minorities and first-generation college students.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$1,000",
+    "url": "https://bold.org/scholarships/by-demographics/lgbtq-scholarships/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "community_involvement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Bold.org",
+    "description": "Honoring Adam Montes by supporting underrepresented LGBTQ+ students in higher education.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "LGBTQ+",
+    "age": "NA",
+    "academic_score": "Good standing / 2.4+ GPA or 5.8/10",
+    "duration": "1 year",
+    "provider_type": "Scholarship Platform"
+  },
+  {
+    "id": "scholarship_131",
+    "title": "Microsoft Disability Scholarship",
+    "deadline": "2025-03-17",
+    "eligibility_text": "High school seniors with disabilities pursuing computer science, engineering, business, law, or related STEM field at 4-year college.",
+    "country": [
+      "United States"
+    ],
+    "award_amount": "$5,000 renewable",
+    "url": "https://www.microsoft.com/en-us/diversity/programs/microsoftdisabilityscholarship",
+    "required_docs": [
+      "transcript",
+      "essay",
+      "disability_verification",
+      "recommendation_letter"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "Computer Science",
+      "Engineering",
+      "Business",
+      "Law",
+      "Related Fields"
+    ],
+    "provider": "Microsoft Corporation",
+    "description": "Renewable scholarship for up to 4 years ($20,000 total) for students with disabilities pursuing technology careers.",
+    "application_fee": "NA",
+    "income": "Financial assistance required",
+    "gender": "NA",
+    "age": "High school senior",
+    "academic_score": "Minimum 2.5 GPA / 2.5+ GPA or 6/10",
+    "duration": "Renewable up to 4 years",
+    "provider_type": "Corporation"
+  },
+  {
+    "id": "scholarship_132",
+    "title": "NSP Post Matric Scholarship for Minorities",
+    "deadline": "2025-10-31",
+    "eligibility_text": "Students from minority communities (Muslims, Christians, Sikhs, Buddhists, Jains, Parsis) pursuing higher education in India.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 7,000-20,000",
+    "url": "https://scholarships.gov.in/Students",
+    "required_docs": [
+      "community_certificate",
+      "income_certificate",
+      "transcript",
+      "aadhaar"
+    ],
+    "level": [
+      "Class 11-12",
+      "Undergraduate",
+      "Graduate",
+      "Technical"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Ministry of Minority Affairs, India",
+    "description": "Government scholarship covering tuition fees and maintenance allowances for minority students.",
+    "application_fee": "NA",
+    "income": "Family income ≤ INR 2 lakh",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "50%+ marks or equivalent / 2.0+ GPA or 5/10",
+    "duration": "Program duration",
+    "provider_type": "Government"
+  },
+  {
+    "id": "scholarship_133",
+    "title": "Pre Matric Scholarship For Students With Disabilities",
+    "deadline": "2025-09-15",
+    "eligibility_text": "Students with disabilities (40%+ disability) pursuing pre-matric education in India.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 3,000-12,000",
+    "url": "https://scholarships.gov.in/Students",
+    "required_docs": [
+      "disability_certificate",
+      "income_certificate",
+      "transcript",
+      "aadhaar"
+    ],
+    "level": [
+      "Classes 1-10"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Department of Empowerment of Persons with Disabilities",
+    "description": "Government scholarship supporting students with disabilities in pre-matric education.",
+    "application_fee": "NA",
+    "income": "Family income ≤ INR 2.5 lakh",
+    "gender": "NA",
+    "age": "School-going age",
+    "academic_score": "Regular attendance required / Pass marks or 2.0+ GPA or 5/10",
+    "duration": "Academic year",
+    "provider_type": "Government"
+  },
+  {
+    "id": "scholarship_134",
+    "title": "Azim Premji Scholarship",
+    "deadline": "2025-10-15",
+    "eligibility_text": "Students from economically disadvantaged backgrounds pursuing undergraduate programs in India.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "Full funding",
+    "url": "https://azimpremjifoundation.org/what-we-do/education/azim-premji-scholarship/",
+    "required_docs": [
+      "transcript",
+      "income_certificate",
+      "personal_statement",
+      "references"
+    ],
+    "level": [
+      "Undergraduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Azim Premji Foundation",
+    "description": "Comprehensive scholarship with mentoring for economically disadvantaged students.",
+    "application_fee": "NA",
+    "income": "Economically disadvantaged",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "Good academic record / 3.0+ GPA or 7/10",
+    "duration": "Program duration",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_135",
+    "title": "HDFC Bank Parivartan ECSS Programme 2025-26",
+    "deadline": "2025-10-15",
+    "eligibility_text": "Students from economically weaker sections with demonstrated academic merit and commitment to education.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 25000",
+    "url": "https://www.buddy4study.com/page/hdfc-bank-parivartans-ecss-programme",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "verification_documentation",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Various Foundations and Organizations",
+    "description": "Supporting students from economically weaker sections through educational scholarships and comprehensive support services.",
+    "application_fee": "NA",
+    "income": "Financial need considered",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "Good academic record / 2.5+ GPA or 6.0/10",
+    "duration": "1 year renewable",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_136",
+    "title": "Daughters for Life Scholarship 2025-26",
+    "deadline": "2025-11-16",
+    "eligibility_text": "Girls from conflict-affected regions with demonstrated academic merit and commitment to education.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 40000",
+    "url": "https://daughtersforlife.com/programs/scholarship/",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "verification_documentation",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Various Foundations and Organizations",
+    "description": "Supporting girls from conflict-affected regions through educational scholarships and comprehensive support services.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "Female preference",
+    "age": "NA",
+    "academic_score": "Good academic record / 2.6+ GPA or 6.4/10",
+    "duration": "1 year renewable",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_137",
+    "title": "KC Mahindra Trust Scholarship 2025-26",
+    "deadline": "2025-12-17",
+    "eligibility_text": "Meritorious students pursuing higher education abroad with demonstrated academic merit and commitment to education.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 55000",
+    "url": "https://www.kcmet.org/what-we-do-scholarship-grants.aspx",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "verification_documentation",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Various Foundations and Organizations",
+    "description": "Supporting meritorious students pursuing higher education abroad through educational scholarships and comprehensive support services.",
+    "application_fee": "NA",
+    "income": "NA",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "Good academic record / 2.7+ GPA or 6.8/10",
+    "duration": "1 year renewable",
+    "provider_type": "Foundation"
+  },
+  {
+    "id": "scholarship_138",
+    "title": "Various Scholarships",
+    "deadline": "2025-10-18",
+    "eligibility_text": "Economically disadvantaged students with demonstrated academic merit and commitment to education.",
+    "country": [
+      "India"
+    ],
+    "award_amount": "INR 70000",
+    "url": "https://www.buddy4study.com/scholarships",
+    "required_docs": [
+      "transcript",
+      "personal_statement",
+      "verification_documentation",
+      "references"
+    ],
+    "level": [
+      "Undergraduate",
+      "Graduate"
+    ],
+    "field": [
+      "All subjects"
+    ],
+    "provider": "Various Foundations and Organizations",
+    "description": "Supporting economically disadvantaged students through educational scholarships and comprehensive support services.",
+    "application_fee": "NA",
+    "income": "Financial need considered",
+    "gender": "NA",
+    "age": "NA",
+    "academic_score": "Good academic record / 2.8+ GPA or 7.2/10",
+    "duration": "1 year renewable",
+    "provider_type": "Foundation"
+  }
+]
