@@ -138,20 +138,37 @@ const Profile = () => {
     }
   };
 
-  const validateCurrentStep = () => {
-    switch (currentStep) {
-      case 1: // Personal Information
-        return formData.full_name && formData.email && formData.country && formData.age;
-      case 2: // Academic Details
-        return formData.education_level && formData.field_of_study && formData.institution && formData.gpa;
-      case 3: // Financial & Preferences
-        return formData.income_level && formData.preferred_countries && formData.preferred_countries.length > 0;
-      case 4: // Experience & Activities
-        return true; // This step is optional
-      default:
-        return true;
-    }
-  };
+const validateCurrentStep = () => {
+  switch (currentStep) {
+    case 1: // Personal Information
+      return (
+        formData.full_name?.trim() !== "" &&
+        formData.email?.trim() !== "" &&
+        formData.country?.trim() !== "" &&
+        formData.age?.trim() !== ""
+      );
+
+    case 2: // Academic Details
+      return (
+        formData.education_level?.trim() !== "" &&
+        formData.field_of_study?.trim() !== "" &&
+        formData.institution?.trim() !== "" &&
+        formData.gpa?.trim() !== ""
+      );
+
+    case 3: // Financial & Preferences
+      return (
+        formData.income_level?.trim() !== "" &&
+        (formData.preferred_countries?.length ?? 0) > 0
+      );
+
+    case 4: // Experience & Activities
+      return true; // optional step
+    default:
+      return true;
+  }
+};
+
 
   const updateFormData = (field: string, value: any) => {
     setFormData(prev => ({
