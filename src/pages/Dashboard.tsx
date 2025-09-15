@@ -289,7 +289,7 @@ const Dashboard = () => {
                 {userProfile?.full_name || user?.email?.split('@')[0] || 'Alex Johnson'}
               </div>
               <div className="text-sm text-gray-500">
-                {userProfile?.field_of_study || 'Computer Science'} • Year {userProfile?.education_level?.includes('Year') ? userProfile.education_level.split(' ')[1] : '3'}
+                {userProfile?.field_of_study || 'Computer Science'}
               </div>
             </div>
           </div>
