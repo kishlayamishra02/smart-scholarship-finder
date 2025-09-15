@@ -68,7 +68,7 @@ const Index = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
               Your Dream. Your Future. 
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                 Funded.
+                  Funded.
               </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -97,15 +97,14 @@ const Index = () => {
               </div>
               <div className="mt-6 bg-white rounded-2xl p-6 shadow-lg">
                 <p className="text-sm text-gray-600 mb-4 italic">
-                  "I was overwhelmed with finding scholarships for my B.Com degree. This platform made it so easy! I found a local scholarship I never would have known about otherwise. So grateful!"
-                </p>
+                  "As an international student, finding funding is tough. The AI recommendations were spot-on and helped me find scholarships to study engineering in Canada. It's a great tool."
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-yellow-500 rounded-full mr-3 flex items-center justify-center">
                     <span className="text-white font-bold text-sm">PP</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">Priya Patel</p>
-                    <p className="text-sm text-gray-500">University of Delhi</p>
+                    <p className="font-semibold text-gray-800">David Rodriguez</p>
+                    <p className="text-sm text-gray-500">Aspiring to study in Canada</p>
                   </div>
                 </div>
               </div>
@@ -122,15 +121,15 @@ const Index = () => {
               </div>
               <div className="mt-6 bg-white rounded-2xl p-6 shadow-lg">
                 <p className="text-sm text-gray-600 mb-4 italic">
-                  "As an international student, finding funding is tough. The AI recommendations were spot-on and helped me find scholarships to study engineering in Canada. It's a great tool."
+                  "I was overwhelmed with finding scholarships for my B.Com degree. This platform made it so easy! I found a local scholarship I never would have known about otherwise. So grateful!"
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-purple-500 rounded-full mr-3 flex items-center justify-center">
                     <span className="text-white font-bold text-sm">DR</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">David Rodriguez</p>
-                    <p className="text-sm text-gray-500">Aspiring to study in Canada</p>
+                    <p className="font-semibold text-gray-800">Priya Patel</p>
+                    <p className="text-sm text-gray-500">University of Delhi</p>
                   </div>
                 </div>
               </div>
