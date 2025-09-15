@@ -232,7 +232,7 @@ const Index = () => {
             </div>
             <div className="flex space-x-8">
               <Link to="/" className="text-muted-foreground hover:text-primary">Home</Link>
-              <Link to="/news" className="text-muted-foreground hover:text-primary">News</Link>
+              <Link to="/news" className="text-muted-foreground hover:text-primary">Reviews</Link>
               <Link to="/faq" className="text-muted-foreground hover:text-primary">FAQs</Link>
               <Link to="/contact" className="text-muted-foreground hover:text-primary">Contact</Link>
             </div>
