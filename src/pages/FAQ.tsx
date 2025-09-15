@@ -9,63 +9,83 @@ const FAQ = () => {
   const faqs = [
     {
       id: "1",
-      question: "How does the AI-powered scholarship matching work?",
-      answer: "Our AI analyzes your academic profile, interests, background, and goals to match you with relevant scholarships. The system considers factors like your field of study, GPA, location, financial need, and specific requirements to provide personalized recommendations."
+      question: "How do you find the right scholarships for me?",
+      answer: "Tell us about yourself, and our smart technology will do the heavy lifting. We look at your courses, grades, interests, and where you're from to find scholarships that you're most likely to get."
     },
     {
-      id: "2", 
-      question: "Is Smart Scholarship Finder free to use?",
-      answer: "Yes! Our basic scholarship search and matching service is completely free. We believe every student should have access to educational funding opportunities regardless of their financial situation."
+      id: "2",
+      question: "Is this service really free?",
+      answer: "Yes, it's 100% free for students. Our main goal is to help you find scholarships without adding any financial stress."
     },
     {
       id: "3",
-      question: "How many scholarships are in your database?",
-      answer: "We currently have thousands of scholarships in our database and continuously add new opportunities. Our database includes scholarships from universities, private organizations, government programs, and foundations worldwide."
+      question: "How many scholarships do you have?",
+      answer: "Our database has hundreds of scholarships and we're adding more every day! We have scholarships from universities, companies, and governments, both in India and abroad."
     },
     {
       id: "4",
-      question: "Can I apply to scholarships directly through your platform?",
-      answer: "While you can't submit applications directly through our platform, we provide direct links to official application pages and track your application progress. We also offer document management tools to help organize your application materials."
+      question: "Can I apply for scholarships through your app?",
+      answer: "You can't submit applications directly on our platform. We'll give you a direct link to the official application page. We help you get everything ready and keep track of your applications, but the final submission is with the scholarship provider."
     },
     {
       id: "5",
-      question: "What information do I need to create a profile?",
-      answer: "To get the best matches, we recommend providing information about your academic background, field of study, GPA, location, financial situation, extracurricular activities, and career goals. The more detailed your profile, the better our AI can match you with relevant opportunities."
+      question: "What should I put in my profile?",
+      answer: "The more you tell us, the better we can help! Include your grades, the subjects you're studying, any extracurricular activities, and what your career goals are. A complete profile gets the best matches."
     },
     {
       id: "6",
-      question: "How often are scholarships updated?",
-      answer: "Our database is updated regularly with new scholarship opportunities and deadline changes. We recommend checking your dashboard weekly for new matches and important deadline reminders."
+      question: "How often should I check for new scholarships?",
+      answer: "Our database is updated daily. We suggest checking in at least once a week so you don't miss out on new opportunities and upcoming deadlines."
     },
     {
       id: "7",
-      question: "Can international students use this platform?",
-      answer: "Absolutely! We have scholarships available for both domestic and international students. Our platform includes opportunities specifically designed for international students studying abroad."
+      question: "I'm not from India. Can I still use this?",
+      answer: "Of course! We have a large number of scholarships for international students, whether you want to study in India or any other country. Just set your preferences in your profile."
     },
     {
       id: "8",
-      question: "What if I don't find relevant matches?",
-      answer: "If you're not seeing relevant matches, try updating your profile with more detailed information or adjusting your preferences. You can also contact our support team for personalized assistance in finding suitable opportunities."
+      question: "I'm not finding any good scholarships. What should I do?",
+      answer: "Don't worry! First, try adding more details to your profile. A complete profile makes a big difference. If you're still stuck, reach out to our support team. We're here to help you."
     },
     {
       id: "9",
-      question: "How do deadline reminders work?",
-      answer: "Once you save scholarships or mark them as 'interested,' our system automatically tracks deadlines and sends you email reminders at strategic intervals before applications are due."
+      question: "How do you remind me about deadlines?",
+      answer: "Once you save a scholarship, we'll automatically track its deadline. We'll send you friendly reminders via email so you have plenty of time to complete your application."
     },
     {
       id: "10",
-      question: "Is my personal information secure?",
-      answer: "Yes, we take data security seriously. All personal information is encrypted and stored securely. We never share your data with third parties without your explicit consent, and you can delete your account and data at any time."
+      question: "Is my data safe with you?",
+      answer: "Absolutely. We take your privacy very seriously. Your data is encrypted, and we will never share it without your permission. You are in full control."
     },
     {
       id: "11",
-      question: "Can I edit my profile after creating it?",
-      answer: "Yes, you can update your profile information at any time. We actually recommend updating your profile regularly as your academic situation changes to ensure you continue receiving the most relevant matches."
+      question: "Can I change my profile later?",
+      answer: "Yes, and you should! As you get new grades or join new activities, update your profile. This helps us find you even better scholarship matches."
     },
     {
       id: "12",
-      question: "What types of scholarships do you cover?",
-      answer: "We cover a wide range of scholarships including merit-based, need-based, field-specific, demographic-specific, athletic, artistic, and community service scholarships. Our database includes opportunities from universities, private foundations, corporations, and government programs."
+      question: "What kinds of scholarships can I find here?",
+      answer: "All sorts! We have scholarships based on your academic merit (for good grades), financial need, your field of study (like engineering or medicine), and even for specific talents like sports or arts."
+    },
+    {
+      id: "13",
+      question: "Do I need to pay back a scholarship?",
+      answer: "No, a scholarship is a gift. It's money for your education that you don't have to pay back. This is different from a loan."
+    },
+    {
+      id: "14",
+      question: "Can I apply for multiple scholarships?",
+      answer: "Yes, and you should! There's no limit to how many scholarships you can apply for. The more you apply to, the better your chances of winning one."
+    },
+    {
+      id: "15",
+      question: "I'm in Class 12. Is it too early to start applying?",
+      answer: "Not at all! It's the perfect time to start. Many scholarships are open to students in their final year of school. Starting early gives you more time to prepare your applications."
+    },
+    {
+      id: "16",
+      question: "I'm not a top student. Can I still get a scholarship?",
+      answer: "Definitely! Not all scholarships are based on grades. Many are awarded for financial need, community service, leadership skills, artistic talent, or being from a specific background. There's something for everyone."
     }
   ];
 
@@ -94,8 +114,8 @@ const FAQ = () => {
             Frequently Asked Questions
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Find answers to common questions about Smart Scholarship Finder. 
-            Can't find what you're looking for? Contact our support team.
+            Find answers to common questions about our scholarship platform. 
+            Can't find what you're looking for? Feel free to contact us.
           </p>
         </div>
 
@@ -121,10 +141,10 @@ const FAQ = () => {
             Still have questions?
           </h3>
           <p className="text-muted-foreground mb-4">
-            Our support team is here to help you make the most of Smart Scholarship Finder.
+            Our support team is here to help you on your scholarship journey.
           </p>
           <Button asChild>
-            <a href="mailto:kishlayamishra@gmail.com">
+            <a href="mailto:feedback@example.com">
               Contact Support
             </a>
           </Button>
