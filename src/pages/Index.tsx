@@ -86,7 +86,7 @@ const Index = () => {
                 Find My Scholarships
               </Button>
               <Button variant="outline" size="lg" className="rounded-full px-8 border-gray-300 text-gray-600 hover:bg-gray-50" onClick={() => navigate('/contact')}>
-                Contribute Yourself
+                Help us Refine
               </Button>
             </div>
           </div>
