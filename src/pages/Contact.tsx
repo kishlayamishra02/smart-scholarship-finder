@@ -175,7 +175,7 @@ const Contact = () => {
                             Akshita Gaur
                           </a>
                         </p>
-                        <Button size="icon" variant="ghost" onClick={() => copyEmail("designer@example.com")}>
+                        <Button size="icon" variant="ghost" onClick={() => copyEmail("akshithagoud.kotha2007@gmail.com")}>
                           <Copy className="w-4 h-4" />
                         </Button>
                       </div>
