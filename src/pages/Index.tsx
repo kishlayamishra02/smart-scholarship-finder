@@ -39,9 +39,9 @@ const Index = () => {
               <span className="text-orange-500 text-3xl ml-1">+</span>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <Link to="/" className="text-gray-600 hover:text-primary font-medium transition-colors">Home</Link>
-              <Link to="/news" className="text-gray-600 hover:text-primary font-medium transition-colors">News</Link>
-              <Link to="/faq" className="text-gray-600 hover:text-primary font-medium transition-colors">FAQ's</Link>
+              <Link to="/home" className="text-gray-600 hover:text-primary font-medium transition-colors">Home</Link>
+              <Link to="/reviews" className="text-gray-600 hover:text-primary font-medium transition-colors">Reviews</Link>
+              <Link to="/faq" className="text-gray-600 hover:text-primary font-medium transition-colors">Reviews</Link>
               <Link to="/contact" className="text-gray-600 hover:text-primary font-medium transition-colors">Contact Us</Link>
             </nav>
             <div className="flex items-center">
