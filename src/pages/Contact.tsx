@@ -3,13 +3,54 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { ArrowLeft, Mail, MessageCircle, Users, Lightbulb } from "lucide-react";
+import { ArrowLeft, Mail, MessageCircle, Users, Lightbulb, Copy } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useToast } from "@/components/ui/use-toast";
 
 const Contact = () => {
   const navigate = useNavigate();
+  const { toast } = useToast();
+  const [loading, setLoading] = useState(false);
+
+  // ✅ Handle form submission with fetch (no redirect to Formspree page)
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const res = await fetch("https://formspree.io/f/xblaennq", {
+      method: "POST",
+      body: formData,
+      headers: { Accept: "application/json" },
+    });
+
+    setLoading(false);
+
+    if (res.ok) {
+      toast({
+        title: "✅ Message Sent",
+        description: "We’ll get back to you soon!",
+      });
+      form.reset();
+    } else {
+      toast({
+        title: "❌ Error",
+        description: "Something went wrong. Try again later.",
+      });
+    }
+  };
+
+  // ✅ Copy email to clipboard
+  const copyEmail = (email: string) => {
+    navigator.clipboard.writeText(email);
+    toast({
+      title: "📋 Email copied",
+      description: email,
+    });
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -48,7 +89,7 @@ const Contact = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <form action="https://formspree.io/f/xblaennq" method="POST" className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="firstName">First Name</Label>
@@ -81,8 +122,8 @@ const Contact = () => {
                   />
                 </div>
                 
-                <Button type="submit" className="w-full">
-                  Send Message
+                <Button type="submit" className="w-full" disabled={loading}>
+                  {loading ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </CardContent>
@@ -101,24 +142,55 @@ const Contact = () => {
               <CardContent>
                 <div className="space-y-4">
                   <div>
-                    <Label className="text-sm font-medium">Email Support</Label>
-                    <div className="space-y-1">
-                      <p className="text-muted-foreground">
-                        <a 
-                          href="mailto:kishlayamishra@gmail.com" 
-                          className="text-primary hover:underline"
-                        >
-                          kishlayamishra@gmail.com
-                        </a>
-                      </p>
-                      <p className="text-muted-foreground">
-                        <a 
-                          href="mailto:harshitabhaskaruni@gmail.com" 
-                          className="text-primary hover:underline"
-                        >
-                          harshitabhaskaruni@gmail.com
-                        </a>
-                      </p>
+                    <Label className="text-sm font-medium">Team Contacts</Label>
+                    <div className="space-y-2">
+                      <div className="flex items-center justify-between">
+                        <p className="text-muted-foreground">
+                          Product Manager –{" "}
+                          <a href="mailto:kishlayamishra@gmail.com" className="text-primary hover:underline">
+                            Kishlaya Mishra
+                          </a>
+                        </p>
+                        <Button size="icon" variant="ghost" onClick={() => copyEmail("kishlayamishra@gmail.com")}>
+                          <Copy className="w-4 h-4" />
+                        </Button>
+                      </div>
+
+                      <div className="flex items-center justify-between">
+                        <p className="text-muted-foreground">
+                          Tech Lead –{" "}
+                          <a href="mailto:harshitabhaskaruni@gmail.com" className="text-primary hover:underline">
+                            Harshita Bhaskaruni
+                          </a>
+                        </p>
+                        <Button size="icon" variant="ghost" onClick={() => copyEmail("harshitabhaskaruni@gmail.com")}>
+                          <Copy className="w-4 h-4" />
+                        </Button>
+                      </div>
+
+                      <div className="flex items-center justify-between">
+                        <p className="text-muted-foreground">
+                          AI Engineer –{" "}
+                          <a href="mailto:designer@example.com" className="text-primary hover:underline">
+                            Akshita Gaur
+                          </a>
+                        </p>
+                        <Button size="icon" variant="ghost" onClick={() => copyEmail("designer@example.com")}>
+                          <Copy className="w-4 h-4" />
+                        </Button>
+                      </div>
+
+                      <div className="flex items-center justify-between">
+                        <p className="text-muted-foreground">
+                          Data Engineer –{" "}
+                          <a href="mailto:support@example.com" className="text-primary hover:underline">
+                            Lalita Tyagi
+                          </a>
+                        </p>
+                        <Button size="icon" variant="ghost" onClick={() => copyEmail("tyagilalita056@gmail.com")}>
+                          <Copy className="w-4 h-4" />
+                        </Button>
+                      </div>
                     </div>
                   </div>
                   <div>
@@ -138,25 +210,13 @@ const Contact = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <Button 
-                  variant="outline" 
-                  className="w-full justify-start"
-                  onClick={() => navigate('/faq')}
-                >
+                <Button variant="outline" className="w-full justify-start" onClick={() => navigate('/faq')}>
                   View FAQ
                 </Button>
-                <Button 
-                  variant="outline" 
-                  className="w-full justify-start"
-                  onClick={() => navigate('/auth')}
-                >
+                <Button variant="outline" className="w-full justify-start" onClick={() => navigate('/auth')}>
                   Get Started with Profile
                 </Button>
-                <Button 
-                  variant="outline" 
-                  className="w-full justify-start"
-                  onClick={() => navigate('/scholarships')}
-                >
+                <Button variant="outline" className="w-full justify-start" onClick={() => navigate('/scholarships')}>
                   Browse Scholarships
                 </Button>
               </CardContent>
