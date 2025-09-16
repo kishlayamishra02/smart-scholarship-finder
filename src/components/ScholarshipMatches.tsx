@@ -224,6 +224,18 @@ export const ScholarshipMatches = ({ matches, loading, onApply, onSave }: Schola
           );
         })}
       </div>
+
+      {/* Explore All Button */}
+      <div className="text-center pt-8">
+        <Button 
+          variant="outline" 
+          size="lg"
+          onClick={() => navigate('/scholarships')}
+          className="px-8 py-3"
+        >
+          Not enough? Explore all scholarships
+        </Button>
+      </div>
     </div>
   );
 };

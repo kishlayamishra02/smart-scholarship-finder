@@ -49,7 +49,17 @@ export function ScholarshipCard({
     if (!onApply) return;
     setLoading(true);
     try {
+      // Open official application URL in new tab
+      if (scholarship.application_url) {
+        window.open(scholarship.application_url, '_blank');
+      }
+      
+      // Apply to scholarship
       await onApply(scholarship.id);
+      
+      // Navigate to applications page
+      window.location.href = '/applications';
+      
       toast({
         title: "Application Submitted",
         description: `You have applied to ${scholarship.name}`,
@@ -149,11 +159,11 @@ export function ScholarshipCard({
           {showApplyButton && (
             <Button
               onClick={handleApply}
-              disabled={loading || isApplied}
+              disabled={loading}
               className="flex-1"
               variant={isApplied ? "outline" : "default"}
             >
-              {isApplied ? "Applied" : "Apply Now"}
+              {loading ? "Applying..." : isApplied ? "Applied" : "Apply"}
             </Button>
           )}
           

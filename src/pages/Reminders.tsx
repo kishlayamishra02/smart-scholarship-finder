@@ -184,11 +184,17 @@ const Reminders = () => {
               <p className="text-muted-foreground">Stay on track with important scholarship dates</p>
             </div>
             <div className="flex gap-2">
-              <Button variant="outline">
+              <Button 
+                variant="outline"
+                onClick={() => navigate('/reminders?view=calendar')}
+              >
                 <Calendar className="mr-2 h-4 w-4" />
                 Calendar
               </Button>
-              <Button variant="outline">
+              <Button 
+                variant="outline"
+                onClick={() => navigate('/reminders?view=list')}
+              >
                 List
               </Button>
               <AddReminderDialog onReminderAdded={fetchReminders} />

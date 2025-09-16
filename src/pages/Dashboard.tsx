@@ -196,6 +196,28 @@ const Dashboard = () => {
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) return;
       
+      // First, check if user has already applied to this scholarship
+      const { data: existingApplication, error: checkError } = await supabase
+        .from('applications')
+        .select('id')
+        .eq('user_id', user.id)
+        .eq('scholarship_id', scholarshipId)
+        .maybeSingle();
+      
+      if (checkError) {
+        console.error('Error checking existing application:', checkError);
+        throw checkError;
+      }
+      
+      if (existingApplication) {
+        toast({
+          title: "Already Applied",
+          description: "You have already applied to this scholarship. Check your applications page.",
+          variant: "destructive",
+        });
+        return;
+      }
+      
       const { error } = await supabase
         .from('applications')
         .insert({
@@ -259,11 +281,12 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex">
-      {/* Sidebar */}
-      <div className="w-64 bg-white border-r border-gray-200 flex flex-col">
+    <div className="min-h-screen bg-gray-50 flex flex-col lg:flex-row">
+      {/* Sidebar - Fixed position on desktop */}
+      <div className="lg:w-64 w-full bg-white border-r border-gray-200 flex flex-col lg:h-screen lg:fixed lg:top-0 lg:left-0 lg:z-30">
+        {/* Mobile menu button would go here if needed */}
         {/* Logo */}
-        <div className="p-6">
+        <div className="p-4 lg:p-6">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
               <BookOpen className="h-4 w-4 text-white" />
@@ -273,7 +296,7 @@ const Dashboard = () => {
         </div>
 
         {/* User Profile */}
-        <div className="px-6 pb-6">
+        <div className="px-4 lg:px-6 pb-4 lg:pb-6">
           <div className="flex items-center space-x-3">
             <Avatar className="w-12 h-12">
               <AvatarImage src="/placeholder-avatar.jpg" />
@@ -286,7 +309,7 @@ const Dashboard = () => {
             </Avatar>
             <div>
               <div className="font-semibold text-gray-900">
-                {userProfile?.full_name || user?.email?.split('@')[0] || 'Alex Johnson'}
+                {userProfile?.full_name || user?.email?.split('@')[0] || 'User'}
               </div>
               <div className="text-sm text-gray-500">
                 {userProfile?.field_of_study || 'Computer Science'}
@@ -334,17 +357,17 @@ const Dashboard = () => {
 
         {/* Settings */}
         <div className="p-3 border-t border-gray-200">
-          <Button variant="ghost" className="w-full justify-start text-gray-600 hover:text-gray-900" onClick={() => navigate("/profile")}>
+          <Button variant="ghost" className="w-full justify-start text-gray-600 hover:text-gray-900" onClick={() => navigate("/settings")}>
             <Settings className="mr-3 h-4 w-4" />
             Settings
           </Button>
         </div>
       </div>
 
-      {/* Main Content */}
-      <div className="flex-1 flex flex-col">
+      {/* Main Content - Add left margin for fixed sidebar on desktop */}
+      <div className="flex-1 flex flex-col lg:overflow-hidden lg:ml-64">
         {/* Header */}
-        <header className="bg-white border-b border-gray-200 px-6 py-4">
+        <header className="bg-white border-b border-gray-200 px-4 lg:px-6 py-4">
           <Button 
             variant="ghost" 
             onClick={handleBackToHome}
@@ -355,31 +378,17 @@ const Dashboard = () => {
           </Button>
           
           <div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              Welcome back, {userProfile?.full_name?.split(' ')[0] || user?.email?.split('@')[0] || 'Alex'}!
+            <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
+              Welcome back, {userProfile?.full_name?.split(' ')[0] || user?.email?.split('@')[0] || 'User'}!
             </h1>
-            <p className="text-gray-600">Here are your personalized scholarship recommendations tailored to your profile.</p>
+            <p className="text-sm lg:text-base text-gray-600">Here are your personalized scholarship recommendations tailored to your profile.</p>
           </div>
         </header>
 
         {/* Dashboard Content */}
-        <main className="flex-1 p-6 bg-gray-50">
+        <main className="flex-1 p-4 lg:p-6 bg-gray-50 overflow-y-auto">
           {/* Stats Cards */}
-          <div className="grid grid-cols-4 gap-6 mb-8">
-            <Card className="bg-white border-0 shadow-sm">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-green-100 rounded-xl">
-                    <Zap className="h-6 w-6 text-green-600" />
-                  </div>
-                  <div>
-                    <div className="text-sm font-medium text-gray-500 mb-1">Processing Time</div>
-                    <div className="text-2xl font-bold text-gray-900">{stats.processing_time}ms</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-6 lg:mb-8">
             <Card className="bg-white border-0 shadow-sm">
               <CardContent className="p-6">
                 <div className="flex items-center space-x-4">
@@ -388,7 +397,7 @@ const Dashboard = () => {
                   </div>
                   <div>
                     <div className="text-sm font-medium text-gray-500 mb-1">Scholarships Analyzed</div>
-                    <div className="text-2xl font-bold text-gray-900">{stats.scholarships_analyzed}</div>
+                    <div className="text-2xl font-bold text-gray-900">150+</div>
                   </div>
                 </div>
               </CardContent>
@@ -426,18 +435,18 @@ const Dashboard = () => {
           {/* Scholarship Matches Section */}
           {matches.length > 0 && (
             <div>
-              <div className="flex justify-between items-center mb-6">
-                <h2 className="text-2xl font-bold text-gray-900">Top Recommendations</h2>
-                <div className="flex items-center space-x-4">
+              <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-6 space-y-4 lg:space-y-0">
+                <h2 className="text-xl lg:text-2xl font-bold text-gray-900">Top Recommendations</h2>
+                <div className="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-4">
                   <span className="text-sm text-gray-500">Sorted by relevance and match quality</span>
                   <div className="flex items-center space-x-2">
                     <Input 
                       placeholder="Search scholarships..." 
-                      className="w-64" 
+                      className="w-full lg:w-64" 
                     />
                     <Button variant="outline" size="sm">
                       <Search className="h-4 w-4" />
-                      Search
+                      <span className="hidden sm:inline ml-1">Search</span>
                     </Button>
                   </div>
                 </div>

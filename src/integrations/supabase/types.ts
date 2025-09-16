@@ -253,7 +253,6 @@ export type Database = {
           institution: string | null
           languages: string[] | null
           max_application_fee: string | null
-          password_hash: string | null
           preferred_countries: string[] | null
           updated_at: string
           user_id: string | null
@@ -280,7 +279,6 @@ export type Database = {
           institution?: string | null
           languages?: string[] | null
           max_application_fee?: string | null
-          password_hash?: string | null
           preferred_countries?: string[] | null
           updated_at?: string
           user_id?: string | null
@@ -307,7 +305,6 @@ export type Database = {
           institution?: string | null
           languages?: string[] | null
           max_application_fee?: string | null
-          password_hash?: string | null
           preferred_countries?: string[] | null
           updated_at?: string
           user_id?: string | null

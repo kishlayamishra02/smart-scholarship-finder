@@ -58,17 +58,73 @@ const Profile = () => {
 
   useEffect(() => {
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (event, session) => {
+      async (event, session) => {
         setSession(session);
         setUser(session?.user ?? null);
-        if (!session?.user) navigate("/auth");
+        
+        if (!session?.user) {
+          navigate("/auth");
+          return;
+        }
+
+        // Check if user already has a profile
+        if (session?.user) {
+          setTimeout(async () => {
+            try {
+              console.log('Profile page checking for user:', session.user.id);
+              const { data: profile, error } = await supabase
+                .from('user_profiles')
+                .select('*')
+                .eq('user_id', session.user.id)
+                .maybeSingle();
+
+              console.log('Profile page check result:', { profile, error });
+
+              if (!error && profile) {
+                console.log('Profile exists, redirecting to dashboard');
+                navigate("/dashboard");
+              } else {
+                console.log('No profile found, staying on profile page');
+              }
+            } catch (error) {
+              console.log('Error checking profile:', error);
+            }
+          }, 0);
+        }
       }
     );
 
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
       setSession(session);
       setUser(session?.user ?? null);
-      if (!session?.user) navigate("/auth");
+      
+      if (!session?.user) {
+        navigate("/auth");
+        return;
+      }
+
+      // Check if user already has a profile
+      if (session?.user) {
+        try {
+          console.log('Initial profile check for user:', session.user.id);
+          const { data: profile, error } = await supabase
+            .from('user_profiles')
+            .select('*')
+            .eq('user_id', session.user.id)
+            .maybeSingle();
+
+          console.log('Initial profile check result:', { profile, error });
+
+          if (!error && profile) {
+            console.log('Profile exists, redirecting to dashboard');
+            navigate("/dashboard");
+          } else {
+            console.log('No profile found, staying on profile page');
+          }
+        } catch (error) {
+          console.log('Error checking profile:', error);
+        }
+      }
     });
 
     return () => subscription.unsubscribe();
@@ -85,9 +141,22 @@ const Profile = () => {
         const { data: { user } } = await supabase.auth.getUser();
         if (!user) throw new Error('User not authenticated');
 
+        // Check if profile already exists to prevent duplicates
+        const { data: existingProfile } = await supabase
+          .from('user_profiles')
+          .select('id')
+          .eq('user_id', user.id)
+          .maybeSingle();
+
+        if (existingProfile) {
+          console.log('Profile already exists, navigating to dashboard');
+          navigate('/dashboard');
+          return;
+        }
+
         const { error } = await supabase
           .from('user_profiles')
-          .upsert({
+          .insert({
             user_id: user.id,
             ...formData
           });
@@ -114,12 +183,21 @@ const Profile = () => {
   };
 
   const validateCurrentStep = () => {
+    const currentYear = new Date().getFullYear();
+    
     switch (currentStep) {
      case 1: {
         const missing = [];
         if (!formData.full_name?.trim()) missing.push("Full Name");
         if (!formData.email?.trim()) missing.push("Email");
         if (!formData.country?.trim()) missing.push("Country");
+        
+        // Age validation
+        if (formData.age && (parseInt(formData.age) < 1 || parseInt(formData.age) > 70)) {
+          setErrorMessage("Age must be between 1 and 70 years");
+          return false;
+        }
+        
         if (missing.length > 0) {
           setErrorMessage("Missing: " + missing.join(", "));
           return false;
@@ -133,6 +211,22 @@ const Profile = () => {
         if (!formData.field_of_study?.trim()) missing.push("Field of Study");
         if (!formData.institution?.trim()) missing.push("Institution");
         if (!formData.gpa?.trim()) missing.push("GPA");
+        
+        // Institution validation - only allow letters, spaces, and common punctuation
+        if (formData.institution && !/^[a-zA-Z\s\-\.\,\&\']+$/.test(formData.institution)) {
+          setErrorMessage("Institution name can only contain letters, spaces, and common punctuation");
+          return false;
+        }
+        
+        // Graduation year validation
+        if (formData.graduation_year) {
+          const gradYear = parseInt(formData.graduation_year);
+          if (gradYear < currentYear || gradYear > currentYear + 10) {
+            setErrorMessage("Expected graduation year must be between current year and next 10 years");
+            return false;
+          }
+        }
+        
         if (missing.length > 0) {
           setErrorMessage("Missing: " + missing.join(", "));
           return false;
@@ -216,7 +310,7 @@ const Profile = () => {
                 onChange={(e) => updateFormData('email', e.target.value)}
               />
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <Label htmlFor="country">Country *</Label>
                 <Select value={formData.country} onValueChange={(value) => updateFormData('country', value)}>
@@ -259,6 +353,24 @@ const Profile = () => {
                 </Select>
               </div>
             </div>
+            <div>
+              <Label htmlFor="age">Age</Label>
+              <Input 
+                id="age" 
+                type="number"
+                placeholder="Your age" 
+                className="mt-1"
+                min="1"
+                max="70"
+                value={formData.age}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  if (value === '' || (parseInt(value) >= 1 && parseInt(value) <= 70)) {
+                    updateFormData('age', value);
+                  }
+                }}
+              />
+            </div>
           </div>
         );
 
@@ -292,11 +404,11 @@ const Profile = () => {
                   <SelectItem value="Sciences">Sciences</SelectItem>
                   <SelectItem value="Technology">Technology</SelectItem>
                   <SelectItem value="Mathematics">Mathematics</SelectItem>
-                  <SelectItem value="All subjects">Others</SelectItem>
+                  <SelectItem value="All subjects">Other</SelectItem>
                 </SelectContent>
               </Select>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <Label htmlFor="level">Education Level *</Label>
                 <Select value={formData.education_level} onValueChange={(value) => updateFormData('education_level', value)}>
@@ -313,16 +425,22 @@ const Profile = () => {
               </div>
               <div>
                 <Label htmlFor="gpa">GPA/Academic Score *</Label>
-                <Input 
-                  id="gpa" 
-                  placeholder="e.g. 3.7/4.0 or 85%" 
-                  className="mt-1"
-                  value={formData.gpa}
-                  onChange={(e) => updateFormData('gpa', e.target.value)}
-                />
+                <Select value={formData.gpa} onValueChange={(value) => updateFormData('gpa', value)}>
+                  <SelectTrigger className="mt-1">
+                    <SelectValue placeholder="Select your GPA range" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="9.0-10.0">9.0-10.0 (Excellent)</SelectItem>
+                    <SelectItem value="8.0-8.9">8.0-8.9 (Very Good)</SelectItem>
+                    <SelectItem value="7.0-7.9">7.0-7.9 (Good)</SelectItem>
+                    <SelectItem value="6.0-6.9">6.0-6.9 (Above Average)</SelectItem>
+                    <SelectItem value="5.0-5.9">5.0-5.9 (Average)</SelectItem>
+                    <SelectItem value="Below 5.0">Below 5.0</SelectItem>
+                  </SelectContent>
+                </Select>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <Label htmlFor="institution">Institution *</Label>
                 <Input 
@@ -330,29 +448,34 @@ const Profile = () => {
                   placeholder="Your university/college name" 
                   className="mt-1"
                   value={formData.institution}
-                  onChange={(e) => updateFormData('institution', e.target.value)}
+                  onChange={(e) => {
+                    // Only allow letters, spaces, and common punctuation
+                    const value = e.target.value;
+                    if (value === '' || /^[a-zA-Z\s\-\.\,\&\']*$/.test(value)) {
+                      updateFormData('institution', value);
+                    }
+                  }}
                 />
               </div>
               <div>
                 <Label htmlFor="graduation">Expected Graduation Year *</Label>
                 <Input 
                   id="graduation" 
+                  type="number"
                   placeholder="2025" 
                   className="mt-1"
+                  min={new Date().getFullYear()}
+                  max={new Date().getFullYear() + 10}
                   value={formData.graduation_year}
-                  onChange={(e) => updateFormData('graduation_year', e.target.value)}
+                  onChange={(e) => {
+                    const value = e.target.value;
+                    const currentYear = new Date().getFullYear();
+                    if (value === '' || (parseInt(value) >= currentYear && parseInt(value) <= currentYear + 10)) {
+                      updateFormData('graduation_year', value);
+                    }
+                  }}
                 />
               </div>
-            </div>
-            <div>
-              <Label htmlFor="age">Age</Label>
-              <Input 
-                id="age" 
-                placeholder="Your age" 
-                className="mt-1"
-                value={formData.age}
-                onChange={(e) => updateFormData('age', e.target.value)}
-              />
             </div>
           </div>
         );
@@ -369,7 +492,7 @@ const Profile = () => {
               <Label htmlFor="financial_need">I have financial need for scholarship funding</Label>
             </div>
             
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <Label htmlFor="income">Family Income Level</Label>
                 <Select value={formData.income_level} onValueChange={(value) => updateFormData('income_level', value)}>
@@ -399,7 +522,7 @@ const Profile = () => {
 
             <div>
               <Label htmlFor="preferred_countries">Preferred Study Countries</Label>
-              <div className="grid grid-cols-3 gap-3 mt-2">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-2">
                 {['USA', 'UK', 'Canada', 'Australia', 'Germany', 'France', 'Netherlands', 'Singapore', 'Japan', 'International'].map((country) => (
                   <div key={country} className="flex items-center space-x-2">
                     <Checkbox 
@@ -415,7 +538,7 @@ const Profile = () => {
 
             <div>
               <Label htmlFor="languages">Languages You Speak</Label>
-              <div className="grid grid-cols-4 gap-3 mt-2">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-2">
                 {['English', 'Spanish', 'French', 'German', 'Chinese', 'Japanese', 'Arabic', 'Hindi'].map((language) => (
                   <div key={language} className="flex items-center space-x-2">
                     <Checkbox 
@@ -446,10 +569,10 @@ const Profile = () => {
               />
             </div>
             <div>
-              <Label htmlFor="activities">Extracurricular Activities & Leadership</Label>
+              <Label htmlFor="activities">Extracurricular Activities</Label>
               <Textarea 
                 id="activities" 
-                placeholder="List your extracurricular activities, leadership roles, and organizations"
+                placeholder="Clubs, sports, volunteer work, leadership roles, etc."
                 className="mt-1"
                 rows={4}
                 value={formData.activities}
@@ -457,10 +580,10 @@ const Profile = () => {
               />
             </div>
             <div>
-              <Label htmlFor="experience">Work Experience</Label>
+              <Label htmlFor="work_experience">Work Experience</Label>
               <Textarea 
-                id="experience" 
-                placeholder="Brief description of any relevant work experience or internships"
+                id="work_experience" 
+                placeholder="Internships, part-time jobs, research positions, etc."
                 className="mt-1"
                 rows={4}
                 value={formData.work_experience}
@@ -468,10 +591,10 @@ const Profile = () => {
               />
             </div>
             <div>
-              <Label htmlFor="community_service">Community Service & Volunteering</Label>
+              <Label htmlFor="community_service">Community Service</Label>
               <Textarea 
                 id="community_service" 
-                placeholder="Describe your community service and volunteer experiences"
+                placeholder="Volunteer work, community involvement, social impact projects"
                 className="mt-1"
                 rows={4}
                 value={formData.community_service}
@@ -486,92 +609,131 @@ const Profile = () => {
     }
   };
 
-  // Show matches if they exist
-   if (showMatches) {
-    return (
-      <div className="min-h-screen bg-background">
-        <div className="border-b border-border bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <Button variant="ghost" onClick={() => setShowMatches(false)} className="text-muted-foreground hover:text-foreground">
-              <ArrowLeft className="mr-2 h-4 w-4" /> Back to Profile
-            </Button>
-            <Button variant="outline" onClick={handlePopulateDatabase} disabled={loading} className="flex items-center gap-2">
-              <Database className="h-4 w-4" /> {loading ? 'Populating...' : 'Populate Database'}
-            </Button>
-          </div>
-        </div>
-
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <ScholarshipMatches matches={matches} loading={loading} onApply={() => {}} onSave={() => {}} />
-        </div>
-      </div>
-    );
+  if (showMatches && matches.length > 0) {
+    return <ScholarshipMatches matches={matches} loading={loading} onApply={() => {}} onSave={() => {}} />;
   }
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="border-b border-border bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <Button variant="ghost" onClick={handleBackToHome} className="text-muted-foreground hover:text-foreground">
-            <Home className="mr-2 h-4 w-4" /> Back to Home
+    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-secondary/10 p-4">
+      <div className="max-w-4xl mx-auto">
+        {/* Header */}
+        <div className="mb-8">
+          <Button 
+            variant="ghost" 
+            onClick={handleBackToHome}
+            className="text-primary hover:text-primary/80 mb-4 p-0"
+          >
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Home
           </Button>
-          <h1 className="text-3xl font-bold text-foreground">Create Your Profile</h1>
-          <Button variant="ghost" onClick={handleLogout} className="text-muted-foreground hover:text-foreground">
-            <LogOut className="mr-2 h-4 w-4" /> Logout
-          </Button>
-        </div>
-      </div>
-
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-white rounded-xl shadow-soft border border-border p-8">
-          <div className="mb-8">
-            <h1 className="text-3xl font-bold text-foreground mb-2">Create Your Profile</h1>
-            <p className="text-muted-foreground">Help us find the perfect scholarships for you</p>
+          
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+            <div>
+              <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+                Create Your Profile
+              </h1>
+              <p className="text-muted-foreground">
+                Tell us about yourself to get personalized scholarship recommendations
+              </p>
+            </div>
+            
+            <div className="flex gap-2">
+              <Button 
+                variant="outline" 
+                onClick={handlePopulateDatabase}
+                className="text-sm"
+              >
+                <Database className="mr-2 h-4 w-4" />
+                <span className="hidden sm:inline">Populate Database</span>
+                <span className="sm:hidden">Populate</span>
+              </Button>
+              <Button 
+                variant="outline" 
+                onClick={handleLogout}
+                className="text-sm"
+              >
+                <LogOut className="mr-2 h-4 w-4" />
+                <span className="hidden sm:inline">Sign Out</span>
+                <span className="sm:hidden">Out</span>
+              </Button>
+            </div>
           </div>
+        </div>
 
-          <div className="flex items-center justify-between mb-8">
+        {/* Progress Steps */}
+        <div className="mb-8">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 space-y-4 md:space-y-0">
             {steps.map((step, index) => {
-              const Icon = step.icon;
-              const isActive = step.id === currentStep;
-              const isCompleted = step.id < currentStep;
+              const StepIcon = step.icon;
+              const isActive = currentStep === step.id;
+              const isCompleted = currentStep > step.id;
+              
               return (
-                <div key={step.id} className="flex items-center">
-                  <div className={`flex items-center space-x-3 ${index < steps.length - 1 ? 'flex-1' : ''}`}>
-                    <div className={`flex items-center justify-center w-10 h-10 rounded-full ${
-                        isCompleted ? "bg-green-success text-white" :
-                        isActive ? "bg-primary text-white" :
-                        "bg-muted text-muted-foreground"
-                      }`}>
-                      <Icon className="h-5 w-5" />
-                    </div>
-                    <span className={`font-medium ${isActive ? "text-primary" : "text-muted-foreground"}`}>
-                      {step.title}
-                    </span>
+                <div key={step.id} className="flex items-center space-x-3 flex-1">
+                  <div className={`w-10 h-10 rounded-full flex items-center justify-center border-2 ${
+                    isCompleted ? 'bg-green-500 border-green-500 text-white' :
+                    isActive ? 'bg-primary border-primary text-white' :
+                    'bg-muted border-muted-foreground/30 text-muted-foreground'
+                  }`}>
+                    <StepIcon className="w-5 h-5" />
                   </div>
-                  {index < steps.length - 1 && <div className="flex-1 h-px bg-border mx-4"></div>}
+                  <div className="flex-1">
+                    <div className={`font-medium ${isActive ? 'text-primary' : isCompleted ? 'text-green-600' : 'text-muted-foreground'}`}>
+                      {step.title}
+                    </div>
+                    {index < steps.length - 1 && (
+                      <div className={`hidden md:block w-full h-0.5 mt-2 ${isCompleted ? 'bg-green-500' : 'bg-muted'}`} />
+                    )}
+                  </div>
                 </div>
               );
             })}
           </div>
+        </div>
 
-          <div className="mb-8">
-            {renderStepContent()}
-          </div>
-
-          {/* NEW: Show inline error message */}
-          {errorMessage && <p className="text-red-500 text-sm mb-4">{errorMessage}</p>}
-
-          <div className="flex justify-between">
-            <Button variant="ghost" onClick={handlePrevious} disabled={currentStep === 1} className="text-muted-foreground">
+        {/* Form Card */}
+        <div className="bg-card rounded-lg shadow-lg p-6 md:p-8 mb-8">
+          <h2 className="text-xl font-semibold text-card-foreground mb-6">
+            {steps[currentStep - 1]?.title}
+          </h2>
+          
+          {errorMessage && (
+            <div className="mb-6 p-4 bg-destructive/10 border border-destructive/20 rounded-lg">
+              <p className="text-destructive text-sm font-medium">{errorMessage}</p>
+            </div>
+          )}
+          
+          {renderStepContent()}
+          
+          {/* Navigation Buttons */}
+          <div className="flex flex-col sm:flex-row justify-between mt-8 gap-4">
+            <Button 
+              variant="outline" 
+              onClick={handlePrevious}
+              disabled={currentStep === 1}
+              className="w-full sm:w-auto"
+            >
               Previous
             </Button>
-            <Button variant="hero" onClick={handleNext} disabled={isLoading || loading} className="flex items-center gap-2">
-              {currentStep === 4 ? (
-                <>
-                  <Sparkles className="h-4 w-4" />
-                  {isLoading || loading ? "Finding Matches..." : "Find My Scholarships"}
-                </>
-              ) : "Next"}
+            
+            <Button 
+              onClick={handleNext}
+              disabled={isLoading}
+              className="w-full sm:w-auto"
+            >
+              {isLoading ? (
+                <div className="flex items-center">
+                  <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2" />
+                  Saving...
+                </div>
+              ) : currentStep === 4 ? (
+                <div className="flex items-center">
+                  <Sparkles className="mr-2 h-4 w-4" />
+                  Find My Scholarships
+                </div>
+              ) : (
+                'Next'
+              )}
             </Button>
           </div>
         </div>

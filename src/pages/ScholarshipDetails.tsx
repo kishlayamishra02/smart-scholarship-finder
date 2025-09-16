@@ -110,6 +110,28 @@ export default function ScholarshipDetails() {
         return;
       }
 
+      // First, check if user has already applied to this scholarship
+      const { data: existingApplication, error: checkError } = await supabase
+        .from('applications')
+        .select('id')
+        .eq('user_id', user.id)
+        .eq('scholarship_id', scholarship?.id)
+        .maybeSingle();
+      
+      if (checkError) {
+        console.error('Error checking existing application:', checkError);
+        throw checkError;
+      }
+      
+      if (existingApplication) {
+        toast({
+          title: "Already Applied",
+          description: "You have already applied to this scholarship. Check your applications page.",
+          variant: "destructive",
+        });
+        return;
+      }
+
       const { error } = await supabase
         .from('applications')
         .insert({

@@ -17,40 +17,32 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const formData = new FormData(e.currentTarget);
-
-    // Combine first + last name into single "name" field for Formspree
-    const fullName = `${formData.get("firstName")} ${formData.get("lastName")}`;
-    formData.set("name", fullName);
-    formData.delete("firstName");
-    formData.delete("lastName");
-
     try {
-      const response = await fetch("https://formspree.io/f/xblyoyob", {
+      const formData = new FormData(e.currentTarget);
+      
+      const response = await fetch("https://formspree.io/f/xblaennq", {
         method: "POST",
         body: formData,
         headers: {
-          "Accept": "application/json",
-        },
+          'Accept': 'application/json'
+        }
       });
 
-      const result = await response.json();
-      console.log("Formspree response:", result);
-
-      if (result.ok) {
+      if (response.ok) {
         toast({
           title: "Message Sent!",
           description: "We'll get back to you within 24 hours.",
         });
         e.currentTarget.reset();
       } else {
-        throw new Error(result.error || "Failed to send message");
+        throw new Error('Failed to send message');
       }
     } catch (error) {
-      console.error(error);
+      console.error('Contact form error:', error);
       toast({
-          title: "Message Sent!",
-          description: "We'll get back to you within 24 hours.", // isme meine vo hta diya, ki error message, kyunki mere ko samaj nahi aa raha h ki, kua ho rhaa h, message to jaa raha h lekin phir bhi dikha raha h ki not sent
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
       });
     } finally {
       setIsSubmitting(false);

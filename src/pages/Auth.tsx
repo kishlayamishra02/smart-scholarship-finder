@@ -20,27 +20,73 @@ const Auth = () => {
   // Form data
   const [loginData, setLoginData] = useState({ email: "", password: "" });
   const [signupData, setSignupData] = useState({ email: "", password: "", confirmPassword: "" });
+  const [activeTab, setActiveTab] = useState("signup");
+  const [checkingUser, setCheckingUser] = useState(false);
 
   useEffect(() => {
     // Set up auth state listener
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (event, session) => {
+      async (event, session) => {
         setSession(session);
         setUser(session?.user ?? null);
         
         if (session?.user) {
-          navigate("/profile");
+          // Check if user has a profile
+          setTimeout(async () => {
+            try {
+              console.log('Checking profile for user:', session.user.id);
+              const { data: profile, error } = await supabase
+                .from('user_profiles')
+                .select('*')
+                .eq('user_id', session.user.id)
+                .maybeSingle();
+
+              console.log('Profile check result:', { profile, error });
+              
+              if (!error && profile) {
+                console.log('Profile found, navigating to dashboard');
+                navigate("/dashboard");
+              } else {
+                console.log('No profile found, navigating to profile creation');
+                navigate("/profile");
+              }
+            } catch (error) {
+              console.log('Error checking profile:', error);
+              navigate("/profile");
+            }
+          }, 0);
         }
       }
     );
 
     // Check for existing session
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
       setSession(session);
       setUser(session?.user ?? null);
       
       if (session?.user) {
-        navigate("/profile");
+        // Check if user has a profile
+        try {
+          console.log('Initial session check for user:', session.user.id);
+          const { data: profile, error } = await supabase
+            .from('user_profiles')
+            .select('*')
+            .eq('user_id', session.user.id)
+            .maybeSingle();
+
+          console.log('Initial profile check result:', { profile, error });
+
+          if (!error && profile) {
+            console.log('Existing profile found, navigating to dashboard');
+            navigate("/dashboard");
+          } else {
+            console.log('No existing profile, navigating to profile creation');
+            navigate("/profile");
+          }
+        } catch (error) {
+          console.log('Error checking profile:', error);
+          navigate("/profile");
+        }
       }
     });
 
@@ -89,13 +135,11 @@ const Auth = () => {
       return;
     }
 
-    const redirectUrl = `${window.location.origin}/`;
-
     const { error } = await supabase.auth.signUp({
       email: signupData.email,
       password: signupData.password,
       options: {
-        emailRedirectTo: redirectUrl
+        emailRedirectTo: `${window.location.origin}/`
       }
     });
 
@@ -108,6 +152,31 @@ const Auth = () => {
     setLoading(false);
   };
 
+  const checkUserExists = async (email: string) => {
+    if (!email || !email.includes('@')) return;
+    
+    setCheckingUser(true);
+    try {
+      // Try to sign in to check if user exists
+      const { error } = await supabase.auth.signInWithPassword({
+        email,
+        password: 'dummy-password-to-check-user'
+      });
+      
+      // If error message indicates invalid credentials, user exists
+      if (error?.message === 'Invalid login credentials') {
+        setActiveTab("login");
+      } else if (error?.message?.includes('Email not confirmed')) {
+        setActiveTab("login");
+      } else if (error?.message?.includes('User not found')) {
+        setActiveTab("signup");
+      }
+    } catch (error) {
+      console.log('Error checking user:', error);
+    }
+    setCheckingUser(false);
+  };
+
   const handleGoogleAuth = async () => {
     setLoading(true);
     setError("");
@@ -115,7 +184,11 @@ const Auth = () => {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/profile`
+        redirectTo: `${window.location.origin}/profile`,
+        queryParams: {
+          access_type: 'offline',
+          prompt: 'consent',
+        }
       }
     });
 
@@ -136,7 +209,7 @@ const Auth = () => {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <Tabs defaultValue="signup" className="w-full">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="signup">Sign Up</TabsTrigger>
               <TabsTrigger value="login">Log In</TabsTrigger>
@@ -150,7 +223,10 @@ const Auth = () => {
                     id="signup-email"
                     type="email"
                     value={signupData.email}
-                    onChange={(e) => setSignupData({ ...signupData, email: e.target.value })}
+                    onChange={(e) => {
+                      setSignupData({ ...signupData, email: e.target.value });
+                      checkUserExists(e.target.value);
+                    }}
                     required
                   />
                 </div>
@@ -207,7 +283,10 @@ const Auth = () => {
                     id="login-email"
                     type="email"
                     value={loginData.email}
-                    onChange={(e) => setLoginData({ ...loginData, email: e.target.value })}
+                    onChange={(e) => {
+                      setLoginData({ ...loginData, email: e.target.value });
+                      checkUserExists(e.target.value);
+                    }}
                     required
                   />
                 </div>

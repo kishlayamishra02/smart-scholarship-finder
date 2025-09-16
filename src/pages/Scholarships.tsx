@@ -150,14 +150,14 @@ const Scholarships = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/20 py-8 px-4">
       <div className="max-w-7xl mx-auto">
-        {/* Back to Home Button */}
+        {/* Back to Dashboard Button */}
         <Button 
           variant="ghost" 
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/dashboard')}
           className="text-muted-foreground hover:text-foreground mb-6"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
+          Back to Dashboard
         </Button>
         
         <div className="text-center mb-8">
