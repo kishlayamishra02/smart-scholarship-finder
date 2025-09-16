@@ -13,7 +13,7 @@ const Contact = () => {
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
 
-  // ✅ Handle form submission with fetch (no redirect to Formspree page)
+  // Handle form submission with fetch (no redirect to Formspree page)
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -43,7 +43,7 @@ const Contact = () => {
     }
   };
 
-  // ✅ Copy email to clipboard
+  // Copy email to clipboard
   const copyEmail = (email: string) => {
     navigator.clipboard.writeText(email);
     toast({
@@ -126,6 +126,11 @@ const Contact = () => {
                   {loading ? "Sending..." : "Send Message"}
                 </Button>
               </form>
+              <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <p className="text-gray-700 text-sm">
+                  💡 Want to contribute? Help us manage the database, add scholarships, and improve the platform. Your support helps students like you find the best opportunities faster!
+                </p>
+              </div>
             </CardContent>
           </Card>
 
