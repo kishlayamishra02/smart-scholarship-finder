@@ -128,18 +128,19 @@ const Contact = () => {
               </form>
               <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
                 <p className="text-gray-700 text-sm space-y-2">
-      Interested in contributing to AI Scholar? This platform is fully open-source! You can help us manage the scholarship database, add new scholarships, improve features, and fix bugs. 
-      <br />
-      Here's how it works:
-      <ul className="list-disc list-inside mt-2">
-        <li>Visit our GitHub repository and fork the project.</li>
-        <li>Create a new branch for the changes or features you want to work on.</li>
-        <li>Implement your improvements and make sure everything works smoothly.</li>
-        <li>Open a Pull Request (PR) with a clear description of your changes.</li>
-        <li>Message the Product Manager to discuss your ideas and and starting contributing.</li>
-      </ul>
-      Your contributions will directly help students discover scholarships faster and make the platform better for everyone!
-    </p>
+                  Interested in contributing to AI Scholar? This platform is fully open-source! You can help us manage the scholarship database, add new scholarships, improve features, and fix bugs. 
+                  <br />
+                  Here's how it works:
+                  <ul className="list-disc list-inside mt-2">
+                  <li>Visit our GitHub repository and fork the project.</li>
+                  <li>Create a new branch for the changes or features you want to work on.</li>
+                  <li>Implement your improvements and make sure everything works smoothly.</li>
+                  <li>Open a Pull Request (PR) with a clear description of your changes.</li>
+                  <li>Message the Product Manager to discuss your ideas and and starting contributing.</li>
+                  </ul>
+                  <br />
+                  Your contributions will directly help students discover scholarships faster and make the platform better for everyone!
+                  </p>
               </div>
             </CardContent>
           </Card>
