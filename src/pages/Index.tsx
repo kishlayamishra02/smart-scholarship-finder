@@ -246,7 +246,7 @@ const Index = () => {
                >
                Manager
                </a>
-              <Link to="/reviews" className="text-gray-600 hover:text-primary font-medium transition-colors">Reviews</Link>
+              <Link to="/news" className="text-gray-600 hover:text-primary font-medium transition-colors">Reviews</Link>
               <Link to="/faq" className="text-gray-600 hover:text-primary font-medium transition-colors">FAQs</Link>
               <Link to="/contact" className="text-gray-600 hover:text-primary font-medium transition-colors">Contact Us</Link>
             </div>
