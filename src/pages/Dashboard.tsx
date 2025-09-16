@@ -396,8 +396,8 @@ const Dashboard = () => {
                     <BarChart3 className="h-6 w-6 text-blue-600" />
                   </div>
                   <div>
-                    <div className="text-sm font-medium text-gray-500 mb-1">Scholarships Analyzed</div>
-                    <div className="text-2xl font-bold text-gray-900">150+</div>
+                    <div className="text-sm font-medium text-gray-500 mb-1">Scholarships Available</div>
+                    <div className="text-2xl font-bold text-gray-900">140+</div>
                   </div>
                 </div>
               </CardContent>
