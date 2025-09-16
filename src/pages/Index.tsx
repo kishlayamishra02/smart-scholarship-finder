@@ -238,7 +238,14 @@ const Index = () => {
               <p className="text-muted-foreground mt-1">© 2025 Smart Scholar Finder. All rights reserved.</p>
             </div>
             <div className="flex space-x-8">
-              <Link to="https://www.linkedin.com/in/kishlayamishra" className="text-gray-600 hover:text-primary font-medium transition-colors">Manager</Link>
+              <a 
+               href="https://www.linkedin.com/in/kishlayamishra" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               className="text-gray-600 hover:text-primary font-medium transition-colors"
+               >
+               Manager
+               </a>
               <Link to="/reviews" className="text-gray-600 hover:text-primary font-medium transition-colors">Reviews</Link>
               <Link to="/faq" className="text-gray-600 hover:text-primary font-medium transition-colors">FAQs</Link>
               <Link to="/contact" className="text-gray-600 hover:text-primary font-medium transition-colors">Contact Us</Link>
