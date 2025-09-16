@@ -85,8 +85,8 @@ const Index = () => {
               <Button variant="hero" size="lg" onClick={handleGetStarted} className="rounded-full px-8">
                 Find My Scholarships
               </Button>
-              <Button variant="outline" size="lg" className="rounded-full px-8 border-gray-300 text-gray-600 hover:bg-gray-50" onClick={() => navigate('/auth')}>
-                Sign Up for Free
+              <Button variant="outline" size="lg" className="rounded-full px-8 border-gray-300 text-gray-600 hover:bg-gray-50" onClick={() => navigate('/contact')}>
+                Contribute Yourself
               </Button>
             </div>
           </div>
