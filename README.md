@@ -33,11 +33,10 @@ So students spend less time searching and more time applying.
 
 ## 📸 Gallery
 
-> Replace these with real screenshots
+> App Overview
 
 * ![Hero Screenshot](./assets/hero.png "Homepage Hero")
 * ![Matches](./assets/matches.png "Scholarship Matches View")
-* ![Timeline](./assets/timeline.png "Per-Scholarship Application Timeline")
 
 ---
 
