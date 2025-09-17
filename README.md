@@ -4,7 +4,7 @@
 👉 [https://aismartscholar.netlify.app](https://aismartscholar.netlify.app)
 
 > “Stop searching. Start applying.”
-> Find the most relevant scholarships tailored to each student’s profile — with AI matching, deadline tracking, and confident applications.
+> Find the most relevant scholarships tailored to each student’s profile -- with AI matching, deadline tracking, and confident applications.
 
 [![🚀 View Live Demo](https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge\&logo=netlify\&logoColor=white)](https://aismartscholar.netlify.app/)
 [![Docs](https://img.shields.io/badge/README-Docs-2962FF?style=for-the-badge)](#-overview)
@@ -48,7 +48,7 @@ So students spend less time searching and more time applying.
 | **Tech Stack**    | React + TypeScript • Node.js + Express • Prisma • PostgreSQL • Tailwind CSS |
 | **AI / Matching** | Rule-based filters + semantic ranking                                       |
 | **Deployment**    | Netlify (Web) • Render/Railway (API) • Postgres (Neon/Railway)              |
-| **Team**          | 4 members — [Jump to team](#-here-comes-the-team)                           |
+| **Team**          | 4 members - [Jump to team](#-here-comes-the-team)                           |
 
 ---
 
@@ -197,7 +197,19 @@ Live App → [https://aismartscholar.netlify.app](https://aismartscholar.netlify
 
 ## 📄 License
 
-MIT (see [LICENSE](./LICENSE))
+MIT License
+
+Copyright (c) 2025 Kishlaya Mishra
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:  
+
+The above copyright notice and this permission notice shall be included in all  
+copies or substantial portions of the Software.  
 
 ---
 
