@@ -1,11 +1,12 @@
-Welocome Smart Scholarship Finder
-https://aismartscholar.netlify.app/
 # 🎓 AI Smart Scholar
 
-> “Stop searching. Start applying.”  
-> Find the most relevant, precise scholarships tailored to each student’s profile — with smart matching, deadline tracking, and confident applications.
+**Welcome to Smart Scholarship Finder**
+👉 [https://aismartscholar.netlify.app](https://aismartscholar.netlify.app)
 
-[![🚀 View Live Demo](https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=netlify&logoColor=white)](https://aismartscholar.netlify.app/)
+> “Stop searching. Start applying.”
+> Find the most relevant scholarships tailored to each student’s profile — with AI matching, deadline tracking, and confident applications.
+
+[![🚀 View Live Demo](https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge\&logo=netlify\&logoColor=white)](https://aismartscholar.netlify.app/)
 [![Docs](https://img.shields.io/badge/README-Docs-2962FF?style=for-the-badge)](#-overview)
 [![License](https://img.shields.io/badge/License-MIT-000?style=for-the-badge)](#-license)
 
@@ -13,208 +14,196 @@ https://aismartscholar.netlify.app/
 
 ## ✨ Overview
 
-AI Smart Scholar helps students discover scholarships that truly fit their academics, interests, and goals. The app simplifies discovery with AI-powered matching, offers direct apply links, and keeps applicants on track with helpful deadline reminders — so nothing slips through the cracks.
+AI Smart Scholar helps students discover scholarships that fit their academics, interests, and goals.
+
+* 🎯 AI-powered matching
+* 🔔 Deadline reminders
+* 🔗 Direct apply links
+* 📝 Notes & checklist
+
+So students spend less time searching and more time applying.
 
 ---
 
-## 👀 Live View
+## 👀 Live Demo
 
-[![Open Live App](https://img.shields.io/badge/OPEN-LIVE%20APP-00C853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://aismartscholar.netlify.app/)
-
-> View our work in action: explore personalized matches, visible timelines, and direct apply links.
+[![Open Live App](https://img.shields.io/badge/OPEN-LIVE%20APP-00C853?style=for-the-badge\&logo=google-chrome\&logoColor=white)](https://aismartscholar.netlify.app/)
 
 ---
 
 ## 📸 Gallery
 
-> Replace these with your actual images. Keep alt text descriptive.
+> Replace these with real screenshots
 
-- ![Hero Screenshot](./assets/hero.png "Homepage hero")
-- ![Matches](./assets/matches.png "Scholarship matches view")
-- ![Timeline](./assets/timeline.png "Per-scholarship application timeline")
+* ![Hero Screenshot](./assets/hero.png "Homepage Hero")
+* ![Matches](./assets/matches.png "Scholarship Matches View")
+* ![Timeline](./assets/timeline.png "Per-Scholarship Application Timeline")
 
 ---
 
 ## 👁️ At a Glance
 
-<table>
-  <tr>
-    <td><strong>Purpose</strong></td>
-    <td>Personalized scholarship matching and deadline tracking</td>
-  </tr>
-  <tr>
-    <td><strong>Tech Stack</strong></td>
-    <td>React + TypeScript • Node.js + Express • Prisma • PostgreSQL • Tailwind CSS</td>
-  </tr>
-  <tr>
-    <td><strong>AI / Matching</strong></td>
-    <td>Rule-based filters + semantic ranking layer</td>
-  </tr>
-  <tr>
-    <td><strong>Deployment</strong></td>
-    <td>Netlify (Web) • Render/Railway (API) • Postgres (Neon/Railway)</td>
-  </tr>
-  <tr>
-    <td><strong>Team</strong></td>
-    <td>4 members — <a href="#-here-comes-the-team">jump to team</a></td>
-  </tr>
-</table>
+| **Category**      | **Details**                                                                 |
+| ----------------- | --------------------------------------------------------------------------- |
+| **Purpose**       | Personalized scholarship matching + deadline tracking                       |
+| **Tech Stack**    | React + TypeScript • Node.js + Express • Prisma • PostgreSQL • Tailwind CSS |
+| **AI / Matching** | Rule-based filters + semantic ranking                                       |
+| **Deployment**    | Netlify (Web) • Render/Railway (API) • Postgres (Neon/Railway)              |
+| **Team**          | 4 members — [Jump to team](#-here-comes-the-team)                           |
 
 ---
 
-## 💡 Reason Why Smart Scholarship
+## 💡 Why Smart Scholarship?
 
-1. 🎯 Precision over noise — recommendations that truly fit each student’s profile  
-2. ⏱️ Peace of mind — deadlines and milestones organized in visible timelines  
-3. 🔗 Faster applications — direct links to official portals reduce friction  
-4. 🌍 Broader discovery — local, national, and international opportunities  
-5. 📈 Improves with use — smarter results as profiles evolve
+1. 🎯 Precision over noise
+2. ⏱️ Deadline tracking with visible timelines
+3. 🔗 Direct apply links to portals
+4. 🌍 Local, national & international opportunities
+5. 📈 Smarter results as profiles evolve
 
 ---
 
 ## 🔑 Key Features
 
-- 🧭 Profile-based matching with instant recommendations  
-- 🔔 Deadline reminders and application tracking  
-- 🔗 Direct apply links to verified sources  
-- 🗂️ Saved opportunities and simple filters  
-- 📝 Application checklist and personal notes  
-- 📬 Email or in-app notifications
+* 🧭 Profile-based AI matching
+* 🔔 Deadline reminders
+* 🔗 Verified direct apply links
+* 🗂️ Saved scholarships + filters
+* 📝 Application checklist
+* 📬 Notifications (email + in-app)
 
 ---
 
 ## 🧠 Technical Deep Dive
 
-### System Flow
+### ⚙️ System Flow
+
+```
 Client (React + TypeScript, Tailwind)
 │
-├─ 🔐 Auth (JWT / session)
+├─ 🔐 Auth (JWT / Session)
 │
-├─ 📡 API Gateway (Node + Express)
-│   ├─ Profile Service (user, academics, goals)
-│   ├─ Matching Service (rules + semantic ranking)
-│   ├─ Scholarships Service (CRUD, sources, validation)
-│   └─ Timeline Service (events, reminders)
+├─ 📡 API Gateway (Node.js + Express)
+│   ├─ Profile Service
+│   ├─ Matching Service
+│   ├─ Scholarships Service
+│   └─ Timeline Service
 │
 └─ 🗄️ Data Layer
-├─ PostgreSQL (users, profiles, scholarships, matches, deadlines)
-└─ Redis Cache (hot queries, rate limits)
+    ├─ PostgreSQL (profiles, scholarships, deadlines)
+    └─ Redis (cache, rate limits)
+```
 
 ### Request Journey
 
-1. React app loads the user profile  
-2. Calls Matching API with profile vectors and filters  
-3. Matching ranks scholarships and returns top‑N with scores  
-4. Timeline service aggregates due dates and milestones  
-5. Client renders Matches, Checklist, and visible Timelines
-
-### Data Model Highlights
-
-- Tables: users, profiles, scholarships, tags, matches, deadlines, reminders  
-- Indexes: tags, regions, deadlines for fast lookup  
-- Ranking fields: similarity score, freshness, eligibility
+1. React app loads user profile
+2. Calls Matching API with profile vectors
+3. API ranks scholarships (rules + semantic layer)
+4. Timeline service aggregates deadlines
+5. Client renders Matches & Timeline
 
 ---
 
 ## 🗓️ Application Timelines
 
-> Stay organized with milestones per opportunity.
+Stay organized with milestones for each opportunity:
 
-​
-[Profile ✅]───[Shortlist 🎯]───[Docs 🗂️]───[Apply ✉️]───[Decision 🏁]
-
-Add a screenshot of the timeline UI in the Gallery section once ready.
+`[Profile ✅] → [Shortlist 🎯] → [Docs 🗂️] → [Apply ✉️] → [Decision 🏁]`
 
 ---
 
 ## 👥 Here Comes the Team
 
-> Team of 4. Replace placeholders with your actual data.
-
-| Avatar | Name        | Role                       | LinkedIn                |
-|-------:|-------------|----------------------------|----------------------|
-| 🧑‍💻 | Kishlaya Mishra    | Product Manager       | https://www.linkedin.com/in/kishlayamishra/   |
-| 👩‍💻 | Harshita Bhaskaruni    | Tech Lead |   https://www.linkedin.com/in/harshitabhaskaruni1117/ |
-| 🧑‍🎨 | Akshitha Goud Kotha    | AI-Engineer  | https://www.linkedin.com/in/kotha-akshitha-goud/   |
-| 👨‍🔬 | Lalita Tyagi    | Data Engineer       | https://www.linkedin.com/in/lalita-tyagi-893a99324/ |
+| Avatar | Name                    | Role            | LinkedIn                                                        |
+| -----: | ----------------------- | --------------- | --------------------------------------------------------------- |
+|  🧑‍💻 | **Kishlaya Mishra**     | Product Manager | [LinkedIn](https://www.linkedin.com/in/kishlayamishra/)         |
+|  👩‍💻 | **Harshita Bhaskaruni** | Tech Lead       | [LinkedIn](https://www.linkedin.com/in/harshitabhaskaruni1117/) |
+|  🧑‍🎨 | **Akshitha Goud Kotha** | AI Engineer     | [LinkedIn](https://www.linkedin.com/in/kotha-akshitha-goud/)    |
+|  👨‍🔬 | **Lalita Tyagi**        | Data Engineer   | [LinkedIn](https://www.linkedin.com/in/lalita-tyagi-893a99324/) |
 
 ---
 
 ## ⚙️ Quick Setup
-Clone
-git clone [https://github.com/kishlayamishra02/smart-scholarship-finder]
-cd ai-smart-scholar
-Install
+
+```bash
+# Clone repo
+git clone https://github.com/kishlayamishra02/smart-scholarship-finder
+cd smart-scholarship-finder
+
+# Install dependencies
 npm install
-Environment
+
+# Setup environment
 cp .env.example .env
-Fill in: DATABASE_URL, JWT_SECRET, SMTP creds, etc.
-Dev
+# Fill: DATABASE_URL, JWT_SECRET, SMTP creds, etc.
+
+# Run dev
 npm run dev
-Build
+
+# Build
 npm run build
+```
 
 ### Environment Variables
+
+```env
 DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/DB
 JWT_SECRET=your_jwt_secret
 NEXT_PUBLIC_API_URL=https://api.yourdomain.com
 SMTP_HOST=smtp.yourprovider.com
 SMTP_USER=your_user
 SMTP_PASS=your_pass
-Add any AI/search provider keys if used 
+```
 
-> Do not commit secrets. Configure them in your hosting provider dashboards.
+> ⚠️ Do not commit secrets — configure in hosting dashboards.
 
 ---
 
 ## 🚀 Deployment
 
-- Web: Netlify  
-  - Build: `npm run build`  
-  - Publish directory: depends on framework (`dist`, `build`, `.next`)  
-- API: Render, Railway, Fly.io  
-- DB: Neon, Supabase, or Railway Postgres  
-- Scheduled reminders: API scheduler or Netlify Scheduled Functions
+* **Web** → Netlify
 
-Live app: https://aismartscholar.netlify.app/
+  * Build: `npm run build`
+  * Publish: `/dist` or `/build`
+* **API** → Render / Railway / Fly.io
+* **DB** → Neon, Supabase, or Railway
+* **Reminders** → Scheduled Functions
+
+Live App → [https://aismartscholar.netlify.app](https://aismartscholar.netlify.app)
 
 ---
 
 ## 🧭 What’s Next
 
-- 📱 PWA and offline support  
-- 🧾 Per‑scholarship application checklist and progress meter  
-- 🧠 Enhanced matching signals and essay prompt hints  
-- 🌐 Region, category, and currency expansions
+* 📱 PWA + offline support
+* 🧾 Checklist + progress meter
+* 🧠 Smarter matching signals
+* 🌐 Expand regions & categories
 
 ---
 
 ## 🙏 Acknowledgements
 
-- React, Tailwind, and the open‑source community  
-- Netlify for smooth hosting and deploys  
-- Early testers whose feedback shaped matching and reminders
+* React, Tailwind, and OSS community
+* Netlify for hosting
+* Early testers for feedback
 
 ---
 
 ## 💬 Support
 
-- General: hello@yourdomain.com  
-- Partnerships: partnerships@yourdomain.com  
-- Issues: support@yourdomain.com
-
-> Replace with real addresses or link a contact form.
+* General: **[hello@yourdomain.com](mailto:hello@yourdomain.com)**
+* Partnerships: **[partnerships@yourdomain.com](mailto:partnerships@yourdomain.com)**
+* Issues: **[support@yourdomain.com](mailto:support@yourdomain.com)**
 
 ---
 
 ## 📄 License
 
-MIT (or your choice). Include a LICENSE file at the repo root.
+MIT (see [LICENSE](./LICENSE))
 
 ---
 
 ## ✨ Final Quote
 
 > “Access is opportunity. Let’s make it easier to reach.” 🌟
-
-[https://github.com/kishlayamishra02/smart-scholarship-finder]: https://github.com/kishlayamishra02/smart-scholarship-finder
