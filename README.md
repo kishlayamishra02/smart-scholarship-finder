@@ -35,8 +35,8 @@ So students spend less time searching and more time applying.
 
 > App Overview
 
-* ![Hero Screenshot](./assets/hero.png "Homepage Hero")
-* ![Matches](./assets/matches.png "Scholarship Matches View")
+* ![Hero Screenshot](assests/hero.png)
+* ![Matches](assests/matches.png)
 
 ---
 
