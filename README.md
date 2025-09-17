@@ -147,12 +147,10 @@ npm run build
 ### Environment Variables
 
 ```env
-DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/DB
-JWT_SECRET=your_jwt_secret
-NEXT_PUBLIC_API_URL=https://api.yourdomain.com
-SMTP_HOST=smtp.yourprovider.com
-SMTP_USER=your_user
-SMTP_PASS=your_pass
+VITE_SUPABASE_PROJECT_ID="your_supabase_project_id_here"
+VITE_SUPABASE_PUBLISHABLE_KEY="your_supabase_publishable_key_here"
+VITE_SUPABASE_URL="https://your_supabase_project_url_here"
+VITE_GEMINI_API_KEY="your_gemini_api_key_here"
 ```
 
 > ⚠️ Do not commit secrets — configure in hosting dashboards.
@@ -165,8 +163,8 @@ SMTP_PASS=your_pass
 
   * Build: `npm run build`
   * Publish: `/dist` or `/build`
-* **API** → Render / Railway / Fly.io
-* **DB** → Neon, Supabase, or Railway
+* **API** → Gemini
+* **DB** → Supabase
 * **Reminders** → Scheduled Functions
 
 Live App → [https://aismartscholar.netlify.app](https://aismartscholar.netlify.app)
@@ -192,9 +190,9 @@ Live App → [https://aismartscholar.netlify.app](https://aismartscholar.netlify
 
 ## 💬 Support
 
-* General: **[hello@yourdomain.com](mailto:hello@yourdomain.com)**
-* Partnerships: **[partnerships@yourdomain.com](mailto:partnerships@yourdomain.com)**
-* Issues: **[support@yourdomain.com](mailto:support@yourdomain.com)**
+* General: **[Manager](mailto:kishlayamishra@gmail.com)**
+* Partnerships: **[Tech Team](mailto:harshitabhaskaruni@gmail.com)**
+* Issues: **[Engineer](mailto:akshithagoud.kotha2007@gmail.com)**
 
 ---
 
