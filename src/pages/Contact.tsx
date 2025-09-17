@@ -189,7 +189,7 @@ const Contact = () => {
                         <p className="text-muted-foreground">
                           AI Engineer –{" "}
                           <a href="mailto:akshithagoud.kotha2007@gmail.com" className="text-primary hover:underline">
-                            Akshita Gaur
+                            Akshitha Goud Kotha
                           </a>
                         </p>
                         <Button size="icon" variant="ghost" onClick={() => copyEmail("akshithagoud.kotha2007@gmail.com")}>
