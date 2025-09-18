@@ -104,13 +104,34 @@ const Scholarships = () => {
       );
     }
 
-    if (fieldFilter) {
-      filtered = filtered.filter(scholarship =>
-        scholarship.field_of_study.some(field => 
-          field.toLowerCase().includes(fieldFilter.toLowerCase())
-        )
-      );
-    }
+if (fieldFilter) {
+  filtered = filtered.filter(scholarship => {
+    return scholarship.field_of_study.some(field => {
+      const subj = field.toLowerCase();
+      const search = fieldFilter.toLowerCase();
+
+      // Rule 1: "All Subjects" should appear in every filter
+      if (subj === "all subjects") return true;
+
+      // Rule 2: Exact match
+      if (subj === search) return true;
+
+      // Rule 3: Custom mappings (expand as needed)
+      const mappings: Record<string, string[]> = {
+        "engineering": ["computer science", "science"],
+        "science": ["medical", "engineering"],
+      };
+
+      // If search is found in the mapping list of subj
+      if (mappings[subj]?.includes(search)) return true;
+
+      // If subj itself is in the mapping list of search
+      if (mappings[search]?.includes(subj)) return true;
+
+      return false;
+    });
+  });
+}
 
     setFilteredScholarships(filtered);
   };
