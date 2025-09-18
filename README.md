@@ -152,7 +152,7 @@ VITE_SUPABASE_URL="https://your_supabase_project_url_here"
 VITE_GEMINI_API_KEY="your_gemini_api_key_here"
 ```
 
-> ⚠️ Do not commit secrets — configure in hosting dashboards.
+> ⚠️ Do not commit secrets -- configure in hosting dashboards.
 
 ---
 
