@@ -48,7 +48,7 @@ So students spend less time searching and more time applying.
 | **Tech Stack**    | React + TypeScript • Node.js + Express • Prisma • PostgreSQL • Tailwind CSS |
 | **AI / Matching** | Rule-based filters + semantic ranking                                       |
 | **Deployment**    | Netlify (Web) • Render/Railway (API) • Postgres (Neon/Railway)              |
-| **Team**          | 4 members - [Jump to team](#-here-comes-the-team)                           |
+| **Team**          | 4 members - [View team](#-here-comes-the-team)                           |
 
 ---
 
